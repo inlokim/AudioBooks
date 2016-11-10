@@ -1,0 +1,78 @@
+//
+//  ContentsViewController.m
+//  TextAudioBooks
+//
+//  Created by 김인로 on 2016. 10. 6..
+//  Copyright © 2016년 highwill. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "BookCoverViewController.h"
+#import "ContentsViewController.h"
+//#import "Utils.h"
+
+
+@interface BookCoverViewController ()
+{
+    IBOutlet UIImageView *imageView;
+    IBOutlet UIButton *contentsButton;
+    IBOutlet UIActivityIndicatorView *activityIndicator;
+}
+@property (strong, nonatomic) UIView *overlayView;
+
+
+@end
+
+@implementation BookCoverViewController
+
+//@synthesize appRecord;
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [imageView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [imageView.layer setBorderWidth: 3.0];
+    
+    [activityIndicator setHidden:YES];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"iPhoneBack" ofType:@"png"];
+    
+    imageView.image =  [UIImage imageWithContentsOfFile:path];
+
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:239.0/255.0 green:238.0/255.0 blue:244.0/255.0 alpha:1.0];
+    
+    self.navigationController.navigationBar.translucent = NO;
+}
+
+#pragma mark - Segues
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showDetail"])
+    {
+        ContentsViewController *controller = (ContentsViewController *)[segue destinationViewController];
+        
+        //[controller setAppRecord:appRecord];
+
+        controller.navigationItem.leftItemsSupplementBackButton = YES;
+    }
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
+    [self.navigationController setToolbarHidden:YES animated:NO];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+}
+
+
+@end
