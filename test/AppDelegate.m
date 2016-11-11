@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Jekyll
+//  test
 //
 //  Created by 김인로 on 2016. 11. 11..
 //  Copyright © 2016년 highwill. All rights reserved.
