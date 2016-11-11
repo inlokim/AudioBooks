@@ -6,7 +6,6 @@
 //  Copyright © 2016년 highwill. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "BookViewController.h"
 #import "BookTableViewCell.h"
 #import "Utils.h"
@@ -46,8 +45,6 @@
     
     BOOL					firstTime;
     
-    //NSString *fileId;
-    
     IBOutlet UIBarButtonItem * playButton;
     IBOutlet UIBarButtonItem * prevButton;
     IBOutlet UIBarButtonItem * nextButton;
@@ -57,18 +54,10 @@
 
 @implementation BookViewController
 
-@synthesize appRecord;
-//@synthesize fileId;
 @synthesize contentsIndex;
 @synthesize contentsArray;
 
 static NSString *cellIdentifier = @"MyCell";
-
-/*void RouteChangeListener(void *                  inClientData,
- AudioSessionPropertyID	 inID,
- UInt32                  inDataSize,
- const void *            inData);*/
-
 
 - (void)viewDidLoad
 {
@@ -197,10 +186,10 @@ static NSString *cellIdentifier = @"MyCell";
 - (NSString *)getAudioPath : (NSString *) type
 {
     //type : xml, mp3
-    NSString *fileName = [Utils fileDir:appRecord.bookType bookId:appRecord.bookId];
+    //NSString *fileName = [Utils fileDir:appRecord.bookType bookId:appRecord.bookId];
     NSString *fileId = [[contentsArray objectAtIndex:contentsIndex.row] objectForKey:@"key"];
-    NSString *path =
-    [NSString stringWithFormat:@"%@/%@/audios/%@.%@", [Utils homeDir], fileName, fileId, type];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:fileId ofType:type];
     
     return path;
 }
@@ -213,72 +202,7 @@ static NSString *cellIdentifier = @"MyCell";
         [self.tableView scrollToRowAtIndexPath:myIndexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
     }
 }
-/*
-#pragma mark - NSXMLParser
 
--(void)parserDidStartDocument:(NSXMLParser *)parser
-{
-    // Initialize the neighbours data array.
-    arrNeighboursData = [[NSMutableArray alloc] init];
-}
-
--(void)parserDidEndDocument:(NSXMLParser *)parser{
-    // When the parsing has been finished then simply reload the table view.
-    //[self.tblNeighbours reloadData];
-}
-
--(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict{
-    
-    ///NSString *attributeValue;
-    
-    // If the current element name is equal to "geoname" then initialize the temporary dictionary.
-    if ([elementName isEqualToString:@"SYNC"]) {
-        dictTempDataStorage = [[NSMutableDictionary alloc] init];
-        //NSLog(@"START : %@", [attributeDict objectForKey:@"START"]);
-        currentAttribute = [attributeDict objectForKey:@"START"];
-    }
-    
-    // Keep the current element.
-    currentElement = elementName;
-    //currentAttribute = attributeValue;
-}
-
--(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{
-    
-    if ([elementName isEqualToString:@"SYNC"]) {
-        [arrNeighboursData addObject:[[NSDictionary alloc] initWithDictionary:dictTempDataStorage]];
-        
-    }
-    else if ([elementName isEqualToString:@"DESC"]){
-        
-        //NSLog(@"DESC : %@", [NSString stringWithString:foundValue]);
-        NSString *content = [foundValue stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-        
-        [dictTempDataStorage setObject:content forKey:@"Description"];
-        
-        //NSLog(@"currentAttribute : %@", currentAttribute);
-        [dictTempDataStorage setObject:currentAttribute forKey:@"StartTime"];
-    }
-    // Clear the mutable string.
-    [foundValue setString:@""];
-}
-
--(void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
-    // Store the found characters if only we're interested in the current element.
-    if ([currentElement isEqualToString:@"DESC"])
-    {
-        //if (![string isEqualToString:@"\n"]) {
-        
-        //string = [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-        [foundValue appendString:string];
-        //}
-    }
-}
-
--(void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError{
-    NSLog(@"%@", [parseError localizedDescription]);
-}
-*/
 #pragma mark - ViewController
 
 - (void)didReceiveMemoryWarning {
@@ -419,7 +343,7 @@ static NSString *cellIdentifier = @"MyCell";
 
 - (void) getPersistData
 {
-    NSString *fileName = [appRecord.bookId stringByAppendingString:@".plist"];
+    NSString *fileName = @"my.plist";
     NSString *filePath =
     [[Utils homeDir] stringByAppendingPathComponent:fileName];
     
@@ -455,7 +379,7 @@ static NSString *cellIdentifier = @"MyCell";
     /*********************************
      SAVE Persistence Data
      **********************************/
-    NSString *fileName = [appRecord.bookId stringByAppendingString:@".plist"];
+    NSString *fileName = @"my.plist";
     NSString *filePath =
     [[Utils homeDir] stringByAppendingPathComponent:fileName];
     
@@ -616,28 +540,6 @@ static NSString *cellIdentifier = @"MyCell";
     
     [self savePersistData];
 }
-/*
- void RouteChangeListener(void *                  inClientData,
- AudioSessionPropertyID	 inID,
- UInt32                  inDataSize,
- const void *            inData)
- {
- BookViewController* This = (BookViewController*)CFBridgingRelease(inClientData);
- 
- if (inID == kAudioSessionProperty_AudioRouteChange) {
- 
- CFDictionaryRef routeDict = (CFDictionaryRef)inData;
- NSNumber* reasonValue = (NSNumber*)CFDictionaryGetValue(routeDict, CFSTR(kAudioSession_AudioRouteChangeKey_Reason));
- 
- int reason = [reasonValue intValue];
- 
- if (reason == kAudioSessionRouteChangeReason_OldDeviceUnavailable) {
- 
- [This pausePlayer:This->player];
- }
- }
- }
- */
 
 #pragma mark AVAudioPlayer delegate methods
 

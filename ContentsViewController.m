@@ -6,7 +6,6 @@
 //  Copyright © 2016년 highwill. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "ContentsViewController.h"
 #import "BookViewController.h"
 #import "Utils.h"
@@ -46,13 +45,6 @@ static NSString *cellIdentifier = @"MyCell";
     [self XMLSetup];
     
     NSLog(@"ContentsViewController");
-    
-   /* NSString *fileName = [Utils fileDir:appRecord.bookType bookId:appRecord.bookId];
-    NSString *path = [NSString stringWithFormat:@"%@/%@/images/iPhoneBack.png", [Utils homeDir], fileName];
-    UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:path]];
-    [tempImageView setFrame:self.tableView.frame];
-    
-    self.tableView.backgroundView = tempImageView;*/
 }
 
 
@@ -180,26 +172,7 @@ static NSString *cellIdentifier = @"MyCell";
     cell.textLabel.text
     = [[arrayData objectAtIndex:indexPath.row] objectForKey:@"title"];
     
-   /* cell.contentView.backgroundColor = [UIColor clearColor];
-    cell.backgroundColor = [UIColor clearColor];
-    tableView.backgroundColor = [UIColor clearColor];*/
-    
- /*   NSLog(@"indexPath.row : %d, currentRow : %d", indexPath.row, currentRow);
-    UIView *backgroundView = [[UIView alloc]initWithFrame:self.tableView.bounds];
-    backgroundView.layer.backgroundColor = [[UIColor colorWithRed:0.529 green:0.808 blue:0.822 alpha:0.5]CGColor];
-    if (indexPath.row == currentRow)
-    {
-        //UIImageView * imgView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,20,20)];
-        //UIImage * image = [UIImage imageNamed:@"select.png"];
-        //imgView.image = image;
 
-        [cell addSubview:backgroundView];
-        
-        //cell.selectedBackgroundView = backgroundView;
-        //[cell addSubview:imgView];
-    }
-*/   
-    //cell.selectedBackgroundView = backgroundView;
     
     return cell;
 }
@@ -229,7 +202,7 @@ static NSString *cellIdentifier = @"MyCell";
         BookViewController *controller =
         (BookViewController *)[segue destinationViewController];
         
-        [controller setAppRecord:appRecord];
+      //  [controller setAppRecord:appRecord];
         [controller setContentsIndex:indexPath];
         [controller setContentsArray:arrayData];
         

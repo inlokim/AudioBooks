@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31629C401DD45A010026B25E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629C3F1DD45A010026B25E /* main.m */; };
-		31629C431DD45A010026B25E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629C421DD45A010026B25E /* AppDelegate.m */; };
-		31629C491DD45A010026B25E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31629C471DD45A010026B25E /* Main.storyboard */; };
 		31629C4B1DD45A010026B25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31629C4A1DD45A010026B25E /* Assets.xcassets */; };
-		31629C4E1DD45A010026B25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31629C4C1DD45A010026B25E /* LaunchScreen.storyboard */; };
 		31629C5B1DD45BCA0026B25E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629C5A1DD45BCA0026B25E /* main.m */; };
 		31629C5E1DD45BCA0026B25E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629C5D1DD45BCA0026B25E /* AppDelegate.m */; };
 		31629C611DD45BCA0026B25E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629C601DD45BCA0026B25E /* ViewController.m */; };
@@ -29,16 +26,17 @@
 		31629CA71DD4A43E0026B25E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CA61DD4A43E0026B25E /* Utils.m */; };
 		31629CAC1DD4A6D50026B25E /* BookCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CA91DD4A6D50026B25E /* BookCoverViewController.m */; };
 		31629CAD1DD4A6D50026B25E /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CAB1DD4A6D50026B25E /* ContentsViewController.m */; };
+		31629CAF1DD4A9D80026B25E /* ABook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31629CAE1DD4A9D80026B25E /* ABook.storyboard */; };
+		31629CB41DD4AC790026B25E /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CB11DD4AC790026B25E /* BookTableViewCell.m */; };
+		31629CB51DD4AC790026B25E /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CB31DD4AC790026B25E /* BookViewController.m */; };
+		31629CB81DD4AD330026B25E /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CB71DD4AD330026B25E /* Script.m */; };
+		31629D071DD545760026B25E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629D061DD545760026B25E /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31629C3C1DD45A000026B25E /* J.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = J.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31629C3F1DD45A010026B25E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		31629C411DD45A010026B25E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		31629C421DD45A010026B25E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		31629C481DD45A010026B25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31629C4A1DD45A010026B25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		31629C4D1DD45A010026B25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31629C4F1DD45A010026B25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31629C571DD45BCA0026B25E /* Jekyll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jekyll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31629C5A1DD45BCA0026B25E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +67,15 @@
 		31629CA91DD4A6D50026B25E /* BookCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCoverViewController.m; sourceTree = "<group>"; };
 		31629CAA1DD4A6D50026B25E /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
 		31629CAB1DD4A6D50026B25E /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		31629CAE1DD4A9D80026B25E /* ABook.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ABook.storyboard; sourceTree = "<group>"; };
+		31629CB01DD4AC790026B25E /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		31629CB11DD4AC790026B25E /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		31629CB21DD4AC790026B25E /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		31629CB31DD4AC790026B25E /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		31629CB61DD4AD330026B25E /* Script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Script.h; sourceTree = "<group>"; };
+		31629CB71DD4AD330026B25E /* Script.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Script.m; sourceTree = "<group>"; };
+		31629D051DD545760026B25E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31629D061DD545760026B25E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +100,15 @@
 		31629C151DD459E30026B25E = {
 			isa = PBXGroup;
 			children = (
+				31629CAE1DD4A9D80026B25E /* ABook.storyboard */,
+				31629D051DD545760026B25E /* AppDelegate.h */,
+				31629D061DD545760026B25E /* AppDelegate.m */,
+				31629CB61DD4AD330026B25E /* Script.h */,
+				31629CB71DD4AD330026B25E /* Script.m */,
+				31629CB01DD4AC790026B25E /* BookTableViewCell.h */,
+				31629CB11DD4AC790026B25E /* BookTableViewCell.m */,
+				31629CB21DD4AC790026B25E /* BookViewController.h */,
+				31629CB31DD4AC790026B25E /* BookViewController.m */,
 				31629CA81DD4A6D50026B25E /* BookCoverViewController.h */,
 				31629CA91DD4A6D50026B25E /* BookCoverViewController.m */,
 				31629CAA1DD4A6D50026B25E /* ContentsViewController.h */,
@@ -123,11 +139,7 @@
 			children = (
 				31629C9D1DD46A880026B25E /* iPhoneBack.png */,
 				31629C7C1DD466720026B25E /* audios */,
-				31629C411DD45A010026B25E /* AppDelegate.h */,
-				31629C421DD45A010026B25E /* AppDelegate.m */,
-				31629C471DD45A010026B25E /* Main.storyboard */,
 				31629C4A1DD45A010026B25E /* Assets.xcassets */,
-				31629C4C1DD45A010026B25E /* LaunchScreen.storyboard */,
 				31629C4F1DD45A010026B25E /* Info.plist */,
 				31629C3E1DD45A010026B25E /* Supporting Files */,
 			);
@@ -297,10 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				31629C801DD466720026B25E /* 1.mp3 in Resources */,
-				31629C4E1DD45A010026B25E /* LaunchScreen.storyboard in Resources */,
 				31629C4B1DD45A010026B25E /* Assets.xcassets in Resources */,
+				31629CAF1DD4A9D80026B25E /* ABook.storyboard in Resources */,
 				31629C821DD466720026B25E /* list.xml in Resources */,
-				31629C491DD45A010026B25E /* Main.storyboard in Resources */,
 				31629C811DD466720026B25E /* 1.xml in Resources */,
 				31629C9E1DD46A880026B25E /* iPhoneBack.png in Resources */,
 			);
@@ -323,13 +334,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31629D071DD545760026B25E /* AppDelegate.m in Sources */,
 				31629CAD1DD4A6D50026B25E /* ContentsViewController.m in Sources */,
 				31629CAC1DD4A6D50026B25E /* BookCoverViewController.m in Sources */,
-				31629C431DD45A010026B25E /* AppDelegate.m in Sources */,
 				31629CA71DD4A43E0026B25E /* Utils.m in Sources */,
 				31629C8E1DD466DE0026B25E /* TBXML+Compression.m in Sources */,
+				31629CB51DD4AC790026B25E /* BookViewController.m in Sources */,
 				31629C901DD466DE0026B25E /* TBXML.m in Sources */,
 				31629C8F1DD466DE0026B25E /* TBXML+HTTP.m in Sources */,
+				31629CB41DD4AC790026B25E /* BookTableViewCell.m in Sources */,
+				31629CB81DD4AD330026B25E /* Script.m in Sources */,
 				31629C401DD45A010026B25E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,22 +361,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		31629C471DD45A010026B25E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31629C481DD45A010026B25E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		31629C4C1DD45A010026B25E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31629C4D1DD45A010026B25E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		31629C621DD45BCA0026B25E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -541,6 +539,7 @@
 				31629C521DD45A010026B25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31629C6B1DD45BCA0026B25E /* Build configuration list for PBXNativeTarget "Jekyll" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +548,7 @@
 				31629C6D1DD45BCA0026B25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

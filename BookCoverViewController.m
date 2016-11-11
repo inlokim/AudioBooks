@@ -6,16 +6,15 @@
 //  Copyright © 2016년 highwill. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "BookCoverViewController.h"
 #import "ContentsViewController.h"
-//#import "Utils.h"
-
 
 @interface BookCoverViewController ()
 {
     IBOutlet UIImageView *imageView;
     IBOutlet UIButton *contentsButton;
+    IBOutlet UIButton *fullVersionButton;
+    
     IBOutlet UIActivityIndicatorView *activityIndicator;
 }
 @property (strong, nonatomic) UIView *overlayView;
@@ -45,7 +44,37 @@
     self.navigationController.navigationBar.translucent = NO;
 }
 
+
+- (IBAction)fullVersion:(id)sender
+{
+    NSString * urlString = @"https://itunes.apple.com/kr/app/strange-case-dr.-jekyll-mr./id404151440?mt=8";
+    
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    NSURLResponse *response;
+    NSError *error;
+    //send it synchronous
+    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+    // check for an error. If there is a network error, you should handle it here.
+    if(!error)
+    {
+        //log response
+        NSLog(@"Response from server = %@", responseString);
+    }
+}
+
 #pragma mark - Segues
+
+// This is the IBAction method referenced in the Storyboard Exit for the Unwind segue.
+// It needs to be here to create a link for the unwind segue.
+// But we'll do nothing with it.
+- (IBAction)unwindFromViewController:(UIStoryboardSegue *)sender
+{
+    //NSLog(@"unwindFromViewController");
+}
+
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -53,8 +82,6 @@
     {
         ContentsViewController *controller = (ContentsViewController *)[segue destinationViewController];
         
-        //[controller setAppRecord:appRecord];
-
         controller.navigationItem.leftItemsSupplementBackButton = YES;
     }
 }
