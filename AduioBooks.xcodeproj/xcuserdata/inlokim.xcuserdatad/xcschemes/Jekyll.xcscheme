@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "31629C561DD45BCA0026B25E"
+               BlueprintIdentifier = "7A1D56571DD59F1100A6C332"
                BuildableName = "Jekyll.app"
                BlueprintName = "Jekyll"
                ReferencedContainer = "container:AduioBooks.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "31629C561DD45BCA0026B25E"
+            BlueprintIdentifier = "7A1D56571DD59F1100A6C332"
             BuildableName = "Jekyll.app"
             BlueprintName = "Jekyll"
             ReferencedContainer = "container:AduioBooks.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "31629C561DD45BCA0026B25E"
+            BlueprintIdentifier = "7A1D56571DD59F1100A6C332"
             BuildableName = "Jekyll.app"
             BlueprintName = "Jekyll"
             ReferencedContainer = "container:AduioBooks.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "31629C561DD45BCA0026B25E"
+            BlueprintIdentifier = "7A1D56571DD59F1100A6C332"
             BuildableName = "Jekyll.app"
             BlueprintName = "Jekyll"
             ReferencedContainer = "container:AduioBooks.xcodeproj">

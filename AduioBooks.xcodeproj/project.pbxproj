@@ -7,34 +7,193 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31629C4B1DD45A010026B25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31629C4A1DD45A010026B25E /* Assets.xcassets */; };
-		31629C801DD466720026B25E /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 31629C7D1DD466720026B25E /* 1.mp3 */; };
-		31629C811DD466720026B25E /* 1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 31629C7E1DD466720026B25E /* 1.xml */; };
-		31629C821DD466720026B25E /* list.xml in Resources */ = {isa = PBXBuildFile; fileRef = 31629C7F1DD466720026B25E /* list.xml */; };
-		31629C8E1DD466DE0026B25E /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629C841DD466DE0026B25E /* TBXML+Compression.m */; };
-		31629C8F1DD466DE0026B25E /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629C851DD466DE0026B25E /* TBXML+HTTP.m */; };
-		31629C901DD466DE0026B25E /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629C861DD466DE0026B25E /* TBXML.m */; };
-		31629C9E1DD46A880026B25E /* iPhoneBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 31629C9D1DD46A880026B25E /* iPhoneBack.png */; };
-		31629CA11DD46DF20026B25E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 31629CA01DD46DF20026B25E /* libz.tbd */; };
-		31629CA71DD4A43E0026B25E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CA61DD4A43E0026B25E /* Utils.m */; };
-		31629CAC1DD4A6D50026B25E /* BookCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CA91DD4A6D50026B25E /* BookCoverViewController.m */; };
-		31629CAD1DD4A6D50026B25E /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CAB1DD4A6D50026B25E /* ContentsViewController.m */; };
-		31629CAF1DD4A9D80026B25E /* ABook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31629CAE1DD4A9D80026B25E /* ABook.storyboard */; };
-		31629CB41DD4AC790026B25E /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CB11DD4AC790026B25E /* BookTableViewCell.m */; };
-		31629CB51DD4AC790026B25E /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CB31DD4AC790026B25E /* BookViewController.m */; };
-		31629CB81DD4AD330026B25E /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629CB71DD4AD330026B25E /* Script.m */; };
-		31629D071DD545760026B25E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31629D061DD545760026B25E /* AppDelegate.m */; };
-		7A1D56371DD5962F00A6C332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D56361DD5962F00A6C332 /* main.m */; };
-		7A1D56401DD5973100A6C332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D563F1DD5973100A6C332 /* main.m */; };
-		7A1D56431DD5973100A6C332 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D56421DD5973100A6C332 /* AppDelegate.m */; };
-		7A1D56461DD5973100A6C332 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D56451DD5973100A6C332 /* ViewController.m */; };
-		7A1D56491DD5973100A6C332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D56471DD5973100A6C332 /* Main.storyboard */; };
-		7A1D564B1DD5973100A6C332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D564A1DD5973100A6C332 /* Assets.xcassets */; };
-		7A1D564E1DD5973100A6C332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D564C1DD5973100A6C332 /* LaunchScreen.storyboard */; };
+		316258B31DD89E7D00A9911A /* My.plist in Resources */ = {isa = PBXBuildFile; fileRef = 316258B21DD89E7D00A9911A /* My.plist */; };
+		7A058ED41DDAAB33004508A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058ED31DDAAB33004508A4 /* main.m */; };
+		7A058EF11DDAAC2C004508A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058EE81DDAAC2C004508A4 /* AppDelegate.m */; };
+		7A058EF21DDAAC2C004508A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A058EE91DDAAC2C004508A4 /* Assets.xcassets */; };
+		7A058EF31DDAAC2C004508A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A058EEB1DDAAC2C004508A4 /* LaunchScreen.storyboard */; };
+		7A058EF41DDAAC2C004508A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A058EED1DDAAC2C004508A4 /* Main.storyboard */; };
+		7A058EF51DDAAC2C004508A4 /* iPhoneBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A058EEF1DDAAC2C004508A4 /* iPhoneBack.png */; };
+		7A058EF61DDAAC2C004508A4 /* My.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A058EF01DDAAC2C004508A4 /* My.plist */; };
+		7A058EFB1DDAACCA004508A4 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058EF81DDAACCA004508A4 /* TBXML+Compression.m */; };
+		7A058EFC1DDAACCA004508A4 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058EF91DDAACCA004508A4 /* TBXML+HTTP.m */; };
+		7A058EFD1DDAACCA004508A4 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058EFA1DDAACCA004508A4 /* TBXML.m */; };
+		7A058F131DDAAD1E004508A4 /* BookCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F001DDAAD1E004508A4 /* BookCoverViewController.m */; };
+		7A058F141DDAAD1E004508A4 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F021DDAAD1E004508A4 /* BookTableViewCell.m */; };
+		7A058F151DDAAD1E004508A4 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F041DDAAD1E004508A4 /* BookViewController.m */; };
+		7A058F161DDAAD1E004508A4 /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F061DDAAD1E004508A4 /* ContentsViewController.m */; };
+		7A058F171DDAAD1E004508A4 /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F081DDAAD1E004508A4 /* Script.m */; };
+		7A058F181DDAAD1E004508A4 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F0A1DDAAD1E004508A4 /* Utils.m */; };
+		7A058F191DDAAD1E004508A4 /* Jekyll.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F0C1DDAAD1E004508A4 /* Jekyll.png */; };
+		7A058F1E1DDAAD65004508A4 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F1B1DDAAD65004508A4 /* 1.mp3 */; };
+		7A058F1F1DDAAD65004508A4 /* 1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F1C1DDAAD65004508A4 /* 1.xml */; };
+		7A058F201DDAAD65004508A4 /* list.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F1D1DDAAD65004508A4 /* list.xml */; };
+		7A058F211DDAADC5004508A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 31629CA01DD46DF20026B25E /* libz.tbd */; };
+		7A058F2A1DDAC1ED004508A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F291DDAC1ED004508A4 /* main.m */; };
+		7A058F561DDAC24D004508A4 /* BookCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F3F1DDAC24D004508A4 /* BookCoverViewController.m */; };
+		7A058F571DDAC24D004508A4 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F411DDAC24D004508A4 /* BookTableViewCell.m */; };
+		7A058F581DDAC24D004508A4 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F431DDAC24D004508A4 /* BookViewController.m */; };
+		7A058F591DDAC24D004508A4 /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F451DDAC24D004508A4 /* ContentsViewController.m */; };
+		7A058F5A1DDAC24D004508A4 /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F471DDAC24D004508A4 /* Script.m */; };
+		7A058F5B1DDAC24D004508A4 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F491DDAC24D004508A4 /* Utils.m */; };
+		7A058F5C1DDAC24D004508A4 /* Jekyll.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F4B1DDAC24D004508A4 /* Jekyll.png */; };
+		7A058F5D1DDAC24D004508A4 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F4D1DDAC24D004508A4 /* TBXML+Compression.m */; };
+		7A058F5E1DDAC24D004508A4 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F4E1DDAC24D004508A4 /* TBXML+HTTP.m */; };
+		7A058F5F1DDAC24D004508A4 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A058F4F1DDAC24D004508A4 /* TBXML.m */; };
+		7A058F691DDAC2D3004508A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F601DDAC2D3004508A4 /* Assets.xcassets */; };
+		7A058F6B1DDAC2D3004508A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F641DDAC2D3004508A4 /* Main.storyboard */; };
+		7A058F6C1DDAC2D3004508A4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F661DDAC2D3004508A4 /* Info.plist */; };
+		7A058F6D1DDAC2D3004508A4 /* iPhoneBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F671DDAC2D3004508A4 /* iPhoneBack.png */; };
+		7A058F6E1DDAC2D3004508A4 /* My.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F681DDAC2D3004508A4 /* My.plist */; };
+		7A058FEB1DDAC5A6004508A4 /* list.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F701DDAC5A6004508A4 /* list.xml */; };
+		7A058FEC1DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F711DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.mp3 */; };
+		7A058FED1DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F721DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.xml */; };
+		7A058FEE1DDAC5A6004508A4 /* prideandprejudice_02_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F731DDAC5A6004508A4 /* prideandprejudice_02_austen_64kb.mp3 */; };
+		7A058FEF1DDAC5A7004508A4 /* prideandprejudice_02_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F741DDAC5A6004508A4 /* prideandprejudice_02_austen_64kb.xml */; };
+		7A058FF01DDAC5A7004508A4 /* prideandprejudice_03_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F751DDAC5A6004508A4 /* prideandprejudice_03_austen_64kb.mp3 */; };
+		7A058FF11DDAC5A7004508A4 /* prideandprejudice_03_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F761DDAC5A6004508A4 /* prideandprejudice_03_austen_64kb.xml */; };
+		7A058FF21DDAC5A7004508A4 /* prideandprejudice_04_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F771DDAC5A6004508A4 /* prideandprejudice_04_austen_64kb.mp3 */; };
+		7A058FF31DDAC5A7004508A4 /* prideandprejudice_04_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F781DDAC5A6004508A4 /* prideandprejudice_04_austen_64kb.xml */; };
+		7A058FF41DDAC5A7004508A4 /* prideandprejudice_05_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F791DDAC5A6004508A4 /* prideandprejudice_05_austen_64kb.mp3 */; };
+		7A058FF51DDAC5A7004508A4 /* prideandprejudice_05_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F7A1DDAC5A6004508A4 /* prideandprejudice_05_austen_64kb.xml */; };
+		7A058FF61DDAC5A7004508A4 /* prideandprejudice_06_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F7B1DDAC5A6004508A4 /* prideandprejudice_06_austen_64kb.mp3 */; };
+		7A058FF71DDAC5A7004508A4 /* prideandprejudice_06_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F7C1DDAC5A6004508A4 /* prideandprejudice_06_austen_64kb.xml */; };
+		7A058FF81DDAC5A7004508A4 /* prideandprejudice_07_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F7D1DDAC5A6004508A4 /* prideandprejudice_07_austen_64kb.mp3 */; };
+		7A058FF91DDAC5A7004508A4 /* prideandprejudice_07_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F7E1DDAC5A6004508A4 /* prideandprejudice_07_austen_64kb.xml */; };
+		7A058FFA1DDAC5A7004508A4 /* prideandprejudice_08_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F7F1DDAC5A6004508A4 /* prideandprejudice_08_austen_64kb.mp3 */; };
+		7A058FFB1DDAC5A7004508A4 /* prideandprejudice_08_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F801DDAC5A6004508A4 /* prideandprejudice_08_austen_64kb.xml */; };
+		7A058FFC1DDAC5A7004508A4 /* prideandprejudice_09_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F811DDAC5A6004508A4 /* prideandprejudice_09_austen_64kb.mp3 */; };
+		7A058FFD1DDAC5A7004508A4 /* prideandprejudice_09_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F821DDAC5A6004508A4 /* prideandprejudice_09_austen_64kb.xml */; };
+		7A058FFE1DDAC5A7004508A4 /* prideandprejudice_10_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F831DDAC5A6004508A4 /* prideandprejudice_10_austen_64kb.mp3 */; };
+		7A058FFF1DDAC5A7004508A4 /* prideandprejudice_10_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F841DDAC5A6004508A4 /* prideandprejudice_10_austen_64kb.xml */; };
+		7A0590001DDAC5A7004508A4 /* prideandprejudice_11_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F851DDAC5A6004508A4 /* prideandprejudice_11_austen_64kb.mp3 */; };
+		7A0590011DDAC5A7004508A4 /* prideandprejudice_11_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F861DDAC5A6004508A4 /* prideandprejudice_11_austen_64kb.xml */; };
+		7A0590021DDAC5A7004508A4 /* prideandprejudice_12_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F871DDAC5A6004508A4 /* prideandprejudice_12_austen_64kb.mp3 */; };
+		7A0590031DDAC5A7004508A4 /* prideandprejudice_12_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F881DDAC5A6004508A4 /* prideandprejudice_12_austen_64kb.xml */; };
+		7A0590041DDAC5A7004508A4 /* prideandprejudice_13_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F891DDAC5A6004508A4 /* prideandprejudice_13_austen_64kb.mp3 */; };
+		7A0590051DDAC5A7004508A4 /* prideandprejudice_13_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F8A1DDAC5A6004508A4 /* prideandprejudice_13_austen_64kb.xml */; };
+		7A0590061DDAC5A7004508A4 /* prideandprejudice_14_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F8B1DDAC5A6004508A4 /* prideandprejudice_14_austen_64kb.mp3 */; };
+		7A0590071DDAC5A7004508A4 /* prideandprejudice_14_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F8C1DDAC5A6004508A4 /* prideandprejudice_14_austen_64kb.xml */; };
+		7A0590081DDAC5A7004508A4 /* prideandprejudice_15_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F8D1DDAC5A6004508A4 /* prideandprejudice_15_austen_64kb.mp3 */; };
+		7A0590091DDAC5A7004508A4 /* prideandprejudice_15_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F8E1DDAC5A6004508A4 /* prideandprejudice_15_austen_64kb.xml */; };
+		7A05900A1DDAC5A7004508A4 /* prideandprejudice_16_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F8F1DDAC5A6004508A4 /* prideandprejudice_16_austen_64kb.mp3 */; };
+		7A05900B1DDAC5A7004508A4 /* prideandprejudice_16_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F901DDAC5A6004508A4 /* prideandprejudice_16_austen_64kb.xml */; };
+		7A05900C1DDAC5A7004508A4 /* prideandprejudice_17_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F911DDAC5A6004508A4 /* prideandprejudice_17_austen_64kb.mp3 */; };
+		7A05900D1DDAC5A7004508A4 /* prideandprejudice_17_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F921DDAC5A6004508A4 /* prideandprejudice_17_austen_64kb.xml */; };
+		7A05900E1DDAC5A7004508A4 /* prideandprejudice_18_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F931DDAC5A6004508A4 /* prideandprejudice_18_austen_64kb.mp3 */; };
+		7A05900F1DDAC5A7004508A4 /* prideandprejudice_18_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F941DDAC5A6004508A4 /* prideandprejudice_18_austen_64kb.xml */; };
+		7A0590101DDAC5A7004508A4 /* prideandprejudice_19_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F951DDAC5A6004508A4 /* prideandprejudice_19_austen_64kb.mp3 */; };
+		7A0590111DDAC5A7004508A4 /* prideandprejudice_19_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F961DDAC5A6004508A4 /* prideandprejudice_19_austen_64kb.xml */; };
+		7A0590121DDAC5A7004508A4 /* prideandprejudice_20_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F971DDAC5A6004508A4 /* prideandprejudice_20_austen_64kb.mp3 */; };
+		7A0590131DDAC5A7004508A4 /* prideandprejudice_20_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F981DDAC5A6004508A4 /* prideandprejudice_20_austen_64kb.xml */; };
+		7A0590141DDAC5A7004508A4 /* prideandprejudice_21_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F991DDAC5A6004508A4 /* prideandprejudice_21_austen_64kb.mp3 */; };
+		7A0590151DDAC5A7004508A4 /* prideandprejudice_21_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F9A1DDAC5A6004508A4 /* prideandprejudice_21_austen_64kb.xml */; };
+		7A0590161DDAC5A7004508A4 /* prideandprejudice_22_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F9B1DDAC5A6004508A4 /* prideandprejudice_22_austen_64kb.mp3 */; };
+		7A0590171DDAC5A7004508A4 /* prideandprejudice_22_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F9C1DDAC5A6004508A4 /* prideandprejudice_22_austen_64kb.xml */; };
+		7A0590181DDAC5A7004508A4 /* prideandprejudice_23_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F9D1DDAC5A6004508A4 /* prideandprejudice_23_austen_64kb.mp3 */; };
+		7A0590191DDAC5A7004508A4 /* prideandprejudice_23_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F9E1DDAC5A6004508A4 /* prideandprejudice_23_austen_64kb.xml */; };
+		7A05901A1DDAC5A7004508A4 /* prideandprejudice_24_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058F9F1DDAC5A6004508A4 /* prideandprejudice_24_austen_64kb.mp3 */; };
+		7A05901B1DDAC5A7004508A4 /* prideandprejudice_24_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA01DDAC5A6004508A4 /* prideandprejudice_24_austen_64kb.xml */; };
+		7A05901C1DDAC5A7004508A4 /* prideandprejudice_25_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA11DDAC5A6004508A4 /* prideandprejudice_25_austen_64kb.mp3 */; };
+		7A05901D1DDAC5A7004508A4 /* prideandprejudice_25_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA21DDAC5A6004508A4 /* prideandprejudice_25_austen_64kb.xml */; };
+		7A05901E1DDAC5A7004508A4 /* prideandprejudice_26_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA31DDAC5A6004508A4 /* prideandprejudice_26_austen_64kb.mp3 */; };
+		7A05901F1DDAC5A7004508A4 /* prideandprejudice_26_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA41DDAC5A6004508A4 /* prideandprejudice_26_austen_64kb.xml */; };
+		7A0590201DDAC5A7004508A4 /* prideandprejudice_27_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA51DDAC5A6004508A4 /* prideandprejudice_27_austen_64kb.mp3 */; };
+		7A0590211DDAC5A7004508A4 /* prideandprejudice_27_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA61DDAC5A6004508A4 /* prideandprejudice_27_austen_64kb.xml */; };
+		7A0590221DDAC5A7004508A4 /* prideandprejudice_28_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA71DDAC5A6004508A4 /* prideandprejudice_28_austen_64kb.mp3 */; };
+		7A0590231DDAC5A7004508A4 /* prideandprejudice_28_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA81DDAC5A6004508A4 /* prideandprejudice_28_austen_64kb.xml */; };
+		7A0590241DDAC5A7004508A4 /* prideandprejudice_29_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FA91DDAC5A6004508A4 /* prideandprejudice_29_austen_64kb.mp3 */; };
+		7A0590251DDAC5A7004508A4 /* prideandprejudice_29_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FAA1DDAC5A6004508A4 /* prideandprejudice_29_austen_64kb.xml */; };
+		7A0590261DDAC5A7004508A4 /* prideandprejudice_30_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FAB1DDAC5A6004508A4 /* prideandprejudice_30_austen_64kb.mp3 */; };
+		7A0590271DDAC5A7004508A4 /* prideandprejudice_30_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FAC1DDAC5A6004508A4 /* prideandprejudice_30_austen_64kb.xml */; };
+		7A0590281DDAC5A7004508A4 /* prideandprejudice_31_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FAD1DDAC5A6004508A4 /* prideandprejudice_31_austen_64kb.mp3 */; };
+		7A0590291DDAC5A7004508A4 /* prideandprejudice_31_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FAE1DDAC5A6004508A4 /* prideandprejudice_31_austen_64kb.xml */; };
+		7A05902A1DDAC5A7004508A4 /* prideandprejudice_32_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FAF1DDAC5A6004508A4 /* prideandprejudice_32_austen_64kb.mp3 */; };
+		7A05902B1DDAC5A7004508A4 /* prideandprejudice_32_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB01DDAC5A6004508A4 /* prideandprejudice_32_austen_64kb.xml */; };
+		7A05902C1DDAC5A7004508A4 /* prideandprejudice_33_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB11DDAC5A6004508A4 /* prideandprejudice_33_austen_64kb.mp3 */; };
+		7A05902D1DDAC5A7004508A4 /* prideandprejudice_33_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB21DDAC5A6004508A4 /* prideandprejudice_33_austen_64kb.xml */; };
+		7A05902E1DDAC5A7004508A4 /* prideandprejudice_34_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB31DDAC5A6004508A4 /* prideandprejudice_34_austen_64kb.mp3 */; };
+		7A05902F1DDAC5A7004508A4 /* prideandprejudice_34_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB41DDAC5A6004508A4 /* prideandprejudice_34_austen_64kb.xml */; };
+		7A0590301DDAC5A7004508A4 /* prideandprejudice_35_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB51DDAC5A6004508A4 /* prideandprejudice_35_austen_64kb.mp3 */; };
+		7A0590311DDAC5A7004508A4 /* prideandprejudice_35_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB61DDAC5A6004508A4 /* prideandprejudice_35_austen_64kb.xml */; };
+		7A0590321DDAC5A7004508A4 /* prideandprejudice_36_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB71DDAC5A6004508A4 /* prideandprejudice_36_austen_64kb.mp3 */; };
+		7A0590331DDAC5A7004508A4 /* prideandprejudice_36_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB81DDAC5A6004508A4 /* prideandprejudice_36_austen_64kb.xml */; };
+		7A0590341DDAC5A7004508A4 /* prideandprejudice_37_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FB91DDAC5A6004508A4 /* prideandprejudice_37_austen_64kb.mp3 */; };
+		7A0590351DDAC5A7004508A4 /* prideandprejudice_37_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FBA1DDAC5A6004508A4 /* prideandprejudice_37_austen_64kb.xml */; };
+		7A0590361DDAC5A7004508A4 /* prideandprejudice_38_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FBB1DDAC5A6004508A4 /* prideandprejudice_38_austen_64kb.mp3 */; };
+		7A0590371DDAC5A7004508A4 /* prideandprejudice_38_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FBC1DDAC5A6004508A4 /* prideandprejudice_38_austen_64kb.xml */; };
+		7A0590381DDAC5A7004508A4 /* prideandprejudice_39_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FBD1DDAC5A6004508A4 /* prideandprejudice_39_austen_64kb.mp3 */; };
+		7A0590391DDAC5A7004508A4 /* prideandprejudice_39_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FBE1DDAC5A6004508A4 /* prideandprejudice_39_austen_64kb.xml */; };
+		7A05903A1DDAC5A7004508A4 /* prideandprejudice_40_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FBF1DDAC5A6004508A4 /* prideandprejudice_40_austen_64kb.mp3 */; };
+		7A05903B1DDAC5A7004508A4 /* prideandprejudice_40_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC01DDAC5A6004508A4 /* prideandprejudice_40_austen_64kb.xml */; };
+		7A05903C1DDAC5A7004508A4 /* prideandprejudice_41_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC11DDAC5A6004508A4 /* prideandprejudice_41_austen_64kb.mp3 */; };
+		7A05903D1DDAC5A7004508A4 /* prideandprejudice_41_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC21DDAC5A6004508A4 /* prideandprejudice_41_austen_64kb.xml */; };
+		7A05903E1DDAC5A7004508A4 /* prideandprejudice_42_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC31DDAC5A6004508A4 /* prideandprejudice_42_austen_64kb.mp3 */; };
+		7A05903F1DDAC5A7004508A4 /* prideandprejudice_42_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC41DDAC5A6004508A4 /* prideandprejudice_42_austen_64kb.xml */; };
+		7A0590401DDAC5A7004508A4 /* prideandprejudice_43_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC51DDAC5A6004508A4 /* prideandprejudice_43_austen_64kb.mp3 */; };
+		7A0590411DDAC5A7004508A4 /* prideandprejudice_43_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC61DDAC5A6004508A4 /* prideandprejudice_43_austen_64kb.xml */; };
+		7A0590421DDAC5A7004508A4 /* prideandprejudice_44_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC71DDAC5A6004508A4 /* prideandprejudice_44_austen_64kb.mp3 */; };
+		7A0590431DDAC5A7004508A4 /* prideandprejudice_44_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC81DDAC5A6004508A4 /* prideandprejudice_44_austen_64kb.xml */; };
+		7A0590441DDAC5A7004508A4 /* prideandprejudice_45_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FC91DDAC5A6004508A4 /* prideandprejudice_45_austen_64kb.mp3 */; };
+		7A0590451DDAC5A7004508A4 /* prideandprejudice_45_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FCA1DDAC5A6004508A4 /* prideandprejudice_45_austen_64kb.xml */; };
+		7A0590461DDAC5A7004508A4 /* prideandprejudice_46_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FCB1DDAC5A6004508A4 /* prideandprejudice_46_austen_64kb.mp3 */; };
+		7A0590471DDAC5A7004508A4 /* prideandprejudice_46_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FCC1DDAC5A6004508A4 /* prideandprejudice_46_austen_64kb.xml */; };
+		7A0590481DDAC5A7004508A4 /* prideandprejudice_47_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FCD1DDAC5A6004508A4 /* prideandprejudice_47_austen_64kb.mp3 */; };
+		7A0590491DDAC5A7004508A4 /* prideandprejudice_47_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FCE1DDAC5A6004508A4 /* prideandprejudice_47_austen_64kb.xml */; };
+		7A05904A1DDAC5A7004508A4 /* prideandprejudice_48_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FCF1DDAC5A6004508A4 /* prideandprejudice_48_austen_64kb.mp3 */; };
+		7A05904B1DDAC5A7004508A4 /* prideandprejudice_48_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD01DDAC5A6004508A4 /* prideandprejudice_48_austen_64kb.xml */; };
+		7A05904C1DDAC5A7004508A4 /* prideandprejudice_49_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD11DDAC5A6004508A4 /* prideandprejudice_49_austen_64kb.mp3 */; };
+		7A05904D1DDAC5A7004508A4 /* prideandprejudice_49_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD21DDAC5A6004508A4 /* prideandprejudice_49_austen_64kb.xml */; };
+		7A05904E1DDAC5A7004508A4 /* prideandprejudice_50_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD31DDAC5A6004508A4 /* prideandprejudice_50_austen_64kb.mp3 */; };
+		7A05904F1DDAC5A7004508A4 /* prideandprejudice_50_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD41DDAC5A6004508A4 /* prideandprejudice_50_austen_64kb.xml */; };
+		7A0590501DDAC5A7004508A4 /* prideandprejudice_51_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD51DDAC5A6004508A4 /* prideandprejudice_51_austen_64kb.mp3 */; };
+		7A0590511DDAC5A7004508A4 /* prideandprejudice_51_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD61DDAC5A6004508A4 /* prideandprejudice_51_austen_64kb.xml */; };
+		7A0590521DDAC5A7004508A4 /* prideandprejudice_52_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD71DDAC5A6004508A4 /* prideandprejudice_52_austen_64kb.mp3 */; };
+		7A0590531DDAC5A7004508A4 /* prideandprejudice_52_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD81DDAC5A6004508A4 /* prideandprejudice_52_austen_64kb.xml */; };
+		7A0590541DDAC5A7004508A4 /* prideandprejudice_53_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FD91DDAC5A6004508A4 /* prideandprejudice_53_austen_64kb.mp3 */; };
+		7A0590551DDAC5A7004508A4 /* prideandprejudice_53_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FDA1DDAC5A6004508A4 /* prideandprejudice_53_austen_64kb.xml */; };
+		7A0590561DDAC5A7004508A4 /* prideandprejudice_54_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FDB1DDAC5A6004508A4 /* prideandprejudice_54_austen_64kb.mp3 */; };
+		7A0590571DDAC5A7004508A4 /* prideandprejudice_54_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FDC1DDAC5A6004508A4 /* prideandprejudice_54_austen_64kb.xml */; };
+		7A0590581DDAC5A7004508A4 /* prideandprejudice_55_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FDD1DDAC5A6004508A4 /* prideandprejudice_55_austen_64kb.mp3 */; };
+		7A0590591DDAC5A7004508A4 /* prideandprejudice_55_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FDE1DDAC5A6004508A4 /* prideandprejudice_55_austen_64kb.xml */; };
+		7A05905A1DDAC5A7004508A4 /* prideandprejudice_56_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FDF1DDAC5A6004508A4 /* prideandprejudice_56_austen_64kb.mp3 */; };
+		7A05905B1DDAC5A7004508A4 /* prideandprejudice_56_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE01DDAC5A6004508A4 /* prideandprejudice_56_austen_64kb.xml */; };
+		7A05905C1DDAC5A7004508A4 /* prideandprejudice_57_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE11DDAC5A6004508A4 /* prideandprejudice_57_austen_64kb.mp3 */; };
+		7A05905D1DDAC5A7004508A4 /* prideandprejudice_57_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE21DDAC5A6004508A4 /* prideandprejudice_57_austen_64kb.xml */; };
+		7A05905E1DDAC5A7004508A4 /* prideandprejudice_58_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE31DDAC5A6004508A4 /* prideandprejudice_58_austen_64kb.mp3 */; };
+		7A05905F1DDAC5A7004508A4 /* prideandprejudice_58_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE41DDAC5A6004508A4 /* prideandprejudice_58_austen_64kb.xml */; };
+		7A0590601DDAC5A7004508A4 /* prideandprejudice_59_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE51DDAC5A6004508A4 /* prideandprejudice_59_austen_64kb.mp3 */; };
+		7A0590611DDAC5A7004508A4 /* prideandprejudice_59_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE61DDAC5A6004508A4 /* prideandprejudice_59_austen_64kb.xml */; };
+		7A0590621DDAC5A7004508A4 /* prideandprejudice_60_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE71DDAC5A6004508A4 /* prideandprejudice_60_austen_64kb.mp3 */; };
+		7A0590631DDAC5A7004508A4 /* prideandprejudice_60_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE81DDAC5A6004508A4 /* prideandprejudice_60_austen_64kb.xml */; };
+		7A0590641DDAC5A7004508A4 /* prideandprejudice_61_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FE91DDAC5A6004508A4 /* prideandprejudice_61_austen_64kb.mp3 */; };
+		7A0590651DDAC5A7004508A4 /* prideandprejudice_61_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A058FEA1DDAC5A6004508A4 /* prideandprejudice_61_austen_64kb.xml */; };
+		7A0590661DDAC624004508A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 31629CA01DD46DF20026B25E /* libz.tbd */; };
+		7A0590691DDAC671004508A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590681DDAC671004508A4 /* AppDelegate.m */; };
+		7A0590A01DDAE3DC004508A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590871DDAE3DC004508A4 /* AppDelegate.m */; };
+		7A0590A11DDAE3DC004508A4 /* BookCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590891DDAE3DC004508A4 /* BookCoverViewController.m */; };
+		7A0590A21DDAE3DC004508A4 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05908B1DDAE3DC004508A4 /* BookTableViewCell.m */; };
+		7A0590A31DDAE3DC004508A4 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05908D1DDAE3DC004508A4 /* BookViewController.m */; };
+		7A0590A41DDAE3DC004508A4 /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05908F1DDAE3DC004508A4 /* ContentsViewController.m */; };
+		7A0590A51DDAE3DC004508A4 /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590911DDAE3DC004508A4 /* Script.m */; };
+		7A0590A61DDAE3DC004508A4 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590931DDAE3DC004508A4 /* Utils.m */; };
+		7A0590A71DDAE3DC004508A4 /* Jekyll.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590951DDAE3DC004508A4 /* Jekyll.png */; };
+		7A0590A81DDAE3DC004508A4 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590971DDAE3DC004508A4 /* TBXML+Compression.m */; };
+		7A0590A91DDAE3DC004508A4 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590981DDAE3DC004508A4 /* TBXML+HTTP.m */; };
+		7A0590AA1DDAE3DC004508A4 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590991DDAE3DC004508A4 /* TBXML.m */; };
+		7A0590B61DDAE40F004508A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590AD1DDAE40F004508A4 /* Assets.xcassets */; };
+		7A0590B71DDAE40F004508A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590AF1DDAE40F004508A4 /* Main.storyboard */; };
+		7A0590B81DDAE40F004508A4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590B11DDAE40F004508A4 /* Info.plist */; };
+		7A0590B91DDAE40F004508A4 /* iPhoneBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590B21DDAE40F004508A4 /* iPhoneBack.png */; };
+		7A0590BA1DDAE40F004508A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590B31DDAE40F004508A4 /* main.m */; };
+		7A0590BB1DDAE40F004508A4 /* My.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590B41DDAE40F004508A4 /* My.plist */; };
+		7A0590BC1DDAE51A004508A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 31629CA01DD46DF20026B25E /* libz.tbd */; };
+		7A0590C11DDAE876004508A4 /* list.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590BE1DDAE876004508A4 /* list.xml */; };
+		7A0590C21DDAE876004508A4 /* prideandprejudice_01_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590BF1DDAE876004508A4 /* prideandprejudice_01_austen_64kb.mp3 */; };
+		7A0590C31DDAE876004508A4 /* prideandprejudice_01_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590C01DDAE876004508A4 /* prideandprejudice_01_austen_64kb.xml */; };
 		7A1D565C1DD59F1100A6C332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D565B1DD59F1100A6C332 /* main.m */; };
 		7A1D56651DD59F1100A6C332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D56631DD59F1100A6C332 /* Main.storyboard */; };
 		7A1D56671DD59F1100A6C332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D56661DD59F1100A6C332 /* Assets.xcassets */; };
-		7A1D566A1DD59F1100A6C332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D56681DD59F1100A6C332 /* LaunchScreen.storyboard */; };
 		7A1D56861DD5A27000A6C332 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D56851DD5A27000A6C332 /* AppDelegate.m */; };
 		7A1D56921DD5A29400A6C332 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D56881DD5A29400A6C332 /* TBXML+Compression.m */; };
 		7A1D56931DD5A29400A6C332 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D56891DD5A29400A6C332 /* TBXML+HTTP.m */; };
@@ -71,53 +230,229 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31629C3C1DD45A000026B25E /* J.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = J.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		31629C4A1DD45A010026B25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		31629C4F1DD45A010026B25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31629C7D1DD466720026B25E /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
-		31629C7E1DD466720026B25E /* 1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 1.xml; sourceTree = "<group>"; };
-		31629C7F1DD466720026B25E /* list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = list.xml; sourceTree = "<group>"; };
-		31629C841DD466DE0026B25E /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
-		31629C851DD466DE0026B25E /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
-		31629C861DD466DE0026B25E /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
-		31629C881DD466DE0026B25E /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
-		31629C891DD466DE0026B25E /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
-		31629C8A1DD466DE0026B25E /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
-		31629C8C1DD466DE0026B25E /* TBXML-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		31629C8D1DD466DE0026B25E /* TBXML-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-Prefix.pch"; sourceTree = "<group>"; };
-		31629C9D1DD46A880026B25E /* iPhoneBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneBack.png; sourceTree = "<group>"; };
+		316258B21DD89E7D00A9911A /* My.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = My.plist; sourceTree = "<group>"; };
 		31629CA01DD46DF20026B25E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		31629CA51DD4A43E0026B25E /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = ../Utils.h; sourceTree = "<group>"; };
-		31629CA61DD4A43E0026B25E /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = ../Utils.m; sourceTree = "<group>"; };
-		31629CA81DD4A6D50026B25E /* BookCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookCoverViewController.h; path = ../BookCoverViewController.h; sourceTree = "<group>"; };
-		31629CA91DD4A6D50026B25E /* BookCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookCoverViewController.m; path = ../BookCoverViewController.m; sourceTree = "<group>"; };
-		31629CAA1DD4A6D50026B25E /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentsViewController.h; path = ../ContentsViewController.h; sourceTree = "<group>"; };
-		31629CAB1DD4A6D50026B25E /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentsViewController.m; path = ../ContentsViewController.m; sourceTree = "<group>"; };
-		31629CAE1DD4A9D80026B25E /* ABook.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ABook.storyboard; sourceTree = "<group>"; };
-		31629CB01DD4AC790026B25E /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookTableViewCell.h; path = ../BookTableViewCell.h; sourceTree = "<group>"; };
-		31629CB11DD4AC790026B25E /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookTableViewCell.m; path = ../BookTableViewCell.m; sourceTree = "<group>"; };
-		31629CB21DD4AC790026B25E /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookViewController.h; path = ../BookViewController.h; sourceTree = "<group>"; };
-		31629CB31DD4AC790026B25E /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookViewController.m; path = ../BookViewController.m; sourceTree = "<group>"; };
-		31629CB61DD4AD330026B25E /* Script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Script.h; path = ../Script.h; sourceTree = "<group>"; };
-		31629CB71DD4AD330026B25E /* Script.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Script.m; path = ../Script.m; sourceTree = "<group>"; };
-		31629D051DD545760026B25E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		31629D061DD545760026B25E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		7A1D56361DD5962F00A6C332 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
-		7A1D563C1DD5973000A6C332 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A1D563F1DD5973100A6C332 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7A1D56411DD5973100A6C332 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7A1D56421DD5973100A6C332 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A1D56441DD5973100A6C332 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A1D56451DD5973100A6C332 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7A1D56481DD5973100A6C332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A1D564A1DD5973100A6C332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A1D564D1DD5973100A6C332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A1D564F1DD5973100A6C332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A058ED01DDAAB33004508A4 /* j.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = j.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A058ED31DDAAB33004508A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A058EE31DDAAB33004508A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A058EE71DDAAC2C004508A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = J/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		7A058EE81DDAAC2C004508A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = J/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		7A058EE91DDAAC2C004508A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = J/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		7A058EEC1DDAAC2C004508A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A058EEE1DDAAC2C004508A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		7A058EEF1DDAAC2C004508A4 /* iPhoneBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneBack.png; path = J/iPhoneBack.png; sourceTree = SOURCE_ROOT; };
+		7A058EF01DDAAC2C004508A4 /* My.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = My.plist; path = J/My.plist; sourceTree = SOURCE_ROOT; };
+		7A058EF81DDAACCA004508A4 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		7A058EF91DDAACCA004508A4 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		7A058EFA1DDAACCA004508A4 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		7A058EFF1DDAAD1E004508A4 /* BookCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCoverViewController.h; sourceTree = "<group>"; };
+		7A058F001DDAAD1E004508A4 /* BookCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCoverViewController.m; sourceTree = "<group>"; };
+		7A058F011DDAAD1E004508A4 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		7A058F021DDAAD1E004508A4 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		7A058F031DDAAD1E004508A4 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		7A058F041DDAAD1E004508A4 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		7A058F051DDAAD1E004508A4 /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		7A058F061DDAAD1E004508A4 /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		7A058F071DDAAD1E004508A4 /* Script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Script.h; sourceTree = "<group>"; };
+		7A058F081DDAAD1E004508A4 /* Script.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Script.m; sourceTree = "<group>"; };
+		7A058F091DDAAD1E004508A4 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		7A058F0A1DDAAD1E004508A4 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		7A058F0C1DDAAD1E004508A4 /* Jekyll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jekyll.png; sourceTree = "<group>"; };
+		7A058F0E1DDAAD1E004508A4 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		7A058F0F1DDAAD1E004508A4 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		7A058F101DDAAD1E004508A4 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		7A058F121DDAAD1E004508A4 /* TBXML-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		7A058F1B1DDAAD65004508A4 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = ../../../../../Documents/Tab_Audios/Jykill_and_hyde_preview/audios/1.mp3; sourceTree = "<group>"; };
+		7A058F1C1DDAAD65004508A4 /* 1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 1.xml; path = ../../../../../Documents/Tab_Audios/Jykill_and_hyde_preview/audios/1.xml; sourceTree = "<group>"; };
+		7A058F1D1DDAAD65004508A4 /* list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = list.xml; path = ../../../../../Documents/Tab_Audios/Jykill_and_hyde_preview/audios/list.xml; sourceTree = "<group>"; };
+		7A058F261DDAC1ED004508A4 /* Pride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A058F291DDAC1ED004508A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A058F3E1DDAC24D004508A4 /* BookCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCoverViewController.h; sourceTree = "<group>"; };
+		7A058F3F1DDAC24D004508A4 /* BookCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCoverViewController.m; sourceTree = "<group>"; };
+		7A058F401DDAC24D004508A4 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		7A058F411DDAC24D004508A4 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		7A058F421DDAC24D004508A4 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		7A058F431DDAC24D004508A4 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		7A058F441DDAC24D004508A4 /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		7A058F451DDAC24D004508A4 /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		7A058F461DDAC24D004508A4 /* Script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Script.h; sourceTree = "<group>"; };
+		7A058F471DDAC24D004508A4 /* Script.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Script.m; sourceTree = "<group>"; };
+		7A058F481DDAC24D004508A4 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		7A058F491DDAC24D004508A4 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		7A058F4B1DDAC24D004508A4 /* Jekyll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jekyll.png; sourceTree = "<group>"; };
+		7A058F4D1DDAC24D004508A4 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		7A058F4E1DDAC24D004508A4 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		7A058F4F1DDAC24D004508A4 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		7A058F511DDAC24D004508A4 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		7A058F521DDAC24D004508A4 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		7A058F531DDAC24D004508A4 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		7A058F551DDAC24D004508A4 /* TBXML-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		7A058F601DDAC2D3004508A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A058F651DDAC2D3004508A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		7A058F661DDAC2D3004508A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A058F671DDAC2D3004508A4 /* iPhoneBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneBack.png; sourceTree = "<group>"; };
+		7A058F681DDAC2D3004508A4 /* My.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = My.plist; sourceTree = "<group>"; };
+		7A058F701DDAC5A6004508A4 /* list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = list.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/list.xml; sourceTree = "<group>"; };
+		7A058F711DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_01_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_01_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F721DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_01_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_01_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F731DDAC5A6004508A4 /* prideandprejudice_02_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_02_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_02_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F741DDAC5A6004508A4 /* prideandprejudice_02_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_02_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_02_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F751DDAC5A6004508A4 /* prideandprejudice_03_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_03_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_03_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F761DDAC5A6004508A4 /* prideandprejudice_03_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_03_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_03_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F771DDAC5A6004508A4 /* prideandprejudice_04_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_04_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_04_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F781DDAC5A6004508A4 /* prideandprejudice_04_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_04_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_04_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F791DDAC5A6004508A4 /* prideandprejudice_05_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_05_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_05_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F7A1DDAC5A6004508A4 /* prideandprejudice_05_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_05_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_05_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F7B1DDAC5A6004508A4 /* prideandprejudice_06_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_06_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_06_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F7C1DDAC5A6004508A4 /* prideandprejudice_06_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_06_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_06_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F7D1DDAC5A6004508A4 /* prideandprejudice_07_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_07_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_07_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F7E1DDAC5A6004508A4 /* prideandprejudice_07_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_07_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_07_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F7F1DDAC5A6004508A4 /* prideandprejudice_08_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_08_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_08_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F801DDAC5A6004508A4 /* prideandprejudice_08_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_08_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_08_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F811DDAC5A6004508A4 /* prideandprejudice_09_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_09_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_09_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F821DDAC5A6004508A4 /* prideandprejudice_09_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_09_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_09_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F831DDAC5A6004508A4 /* prideandprejudice_10_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_10_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_10_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F841DDAC5A6004508A4 /* prideandprejudice_10_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_10_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_10_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F851DDAC5A6004508A4 /* prideandprejudice_11_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_11_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_11_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F861DDAC5A6004508A4 /* prideandprejudice_11_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_11_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_11_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F871DDAC5A6004508A4 /* prideandprejudice_12_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_12_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_12_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F881DDAC5A6004508A4 /* prideandprejudice_12_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_12_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_12_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F891DDAC5A6004508A4 /* prideandprejudice_13_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_13_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_13_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F8A1DDAC5A6004508A4 /* prideandprejudice_13_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_13_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_13_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F8B1DDAC5A6004508A4 /* prideandprejudice_14_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_14_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_14_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F8C1DDAC5A6004508A4 /* prideandprejudice_14_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_14_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_14_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F8D1DDAC5A6004508A4 /* prideandprejudice_15_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_15_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_15_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F8E1DDAC5A6004508A4 /* prideandprejudice_15_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_15_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_15_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F8F1DDAC5A6004508A4 /* prideandprejudice_16_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_16_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_16_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F901DDAC5A6004508A4 /* prideandprejudice_16_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_16_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_16_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F911DDAC5A6004508A4 /* prideandprejudice_17_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_17_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_17_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F921DDAC5A6004508A4 /* prideandprejudice_17_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_17_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_17_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F931DDAC5A6004508A4 /* prideandprejudice_18_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_18_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_18_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F941DDAC5A6004508A4 /* prideandprejudice_18_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_18_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_18_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F951DDAC5A6004508A4 /* prideandprejudice_19_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_19_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_19_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F961DDAC5A6004508A4 /* prideandprejudice_19_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_19_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_19_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F971DDAC5A6004508A4 /* prideandprejudice_20_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_20_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_20_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F981DDAC5A6004508A4 /* prideandprejudice_20_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_20_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_20_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F991DDAC5A6004508A4 /* prideandprejudice_21_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_21_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_21_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F9A1DDAC5A6004508A4 /* prideandprejudice_21_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_21_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_21_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F9B1DDAC5A6004508A4 /* prideandprejudice_22_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_22_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_22_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F9C1DDAC5A6004508A4 /* prideandprejudice_22_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_22_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_22_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F9D1DDAC5A6004508A4 /* prideandprejudice_23_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_23_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_23_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058F9E1DDAC5A6004508A4 /* prideandprejudice_23_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_23_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_23_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058F9F1DDAC5A6004508A4 /* prideandprejudice_24_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_24_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_24_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FA01DDAC5A6004508A4 /* prideandprejudice_24_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_24_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_24_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FA11DDAC5A6004508A4 /* prideandprejudice_25_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_25_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_25_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FA21DDAC5A6004508A4 /* prideandprejudice_25_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_25_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_25_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FA31DDAC5A6004508A4 /* prideandprejudice_26_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_26_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_26_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FA41DDAC5A6004508A4 /* prideandprejudice_26_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_26_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_26_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FA51DDAC5A6004508A4 /* prideandprejudice_27_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_27_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_27_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FA61DDAC5A6004508A4 /* prideandprejudice_27_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_27_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_27_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FA71DDAC5A6004508A4 /* prideandprejudice_28_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_28_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_28_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FA81DDAC5A6004508A4 /* prideandprejudice_28_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_28_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_28_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FA91DDAC5A6004508A4 /* prideandprejudice_29_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_29_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_29_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FAA1DDAC5A6004508A4 /* prideandprejudice_29_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_29_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_29_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FAB1DDAC5A6004508A4 /* prideandprejudice_30_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_30_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_30_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FAC1DDAC5A6004508A4 /* prideandprejudice_30_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_30_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_30_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FAD1DDAC5A6004508A4 /* prideandprejudice_31_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_31_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_31_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FAE1DDAC5A6004508A4 /* prideandprejudice_31_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_31_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_31_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FAF1DDAC5A6004508A4 /* prideandprejudice_32_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_32_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_32_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FB01DDAC5A6004508A4 /* prideandprejudice_32_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_32_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_32_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FB11DDAC5A6004508A4 /* prideandprejudice_33_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_33_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_33_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FB21DDAC5A6004508A4 /* prideandprejudice_33_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_33_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_33_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FB31DDAC5A6004508A4 /* prideandprejudice_34_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_34_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_34_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FB41DDAC5A6004508A4 /* prideandprejudice_34_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_34_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_34_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FB51DDAC5A6004508A4 /* prideandprejudice_35_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_35_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_35_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FB61DDAC5A6004508A4 /* prideandprejudice_35_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_35_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_35_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FB71DDAC5A6004508A4 /* prideandprejudice_36_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_36_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_36_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FB81DDAC5A6004508A4 /* prideandprejudice_36_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_36_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_36_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FB91DDAC5A6004508A4 /* prideandprejudice_37_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_37_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_37_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FBA1DDAC5A6004508A4 /* prideandprejudice_37_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_37_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_37_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FBB1DDAC5A6004508A4 /* prideandprejudice_38_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_38_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_38_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FBC1DDAC5A6004508A4 /* prideandprejudice_38_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_38_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_38_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FBD1DDAC5A6004508A4 /* prideandprejudice_39_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_39_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_39_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FBE1DDAC5A6004508A4 /* prideandprejudice_39_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_39_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_39_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FBF1DDAC5A6004508A4 /* prideandprejudice_40_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_40_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_40_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FC01DDAC5A6004508A4 /* prideandprejudice_40_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_40_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_40_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FC11DDAC5A6004508A4 /* prideandprejudice_41_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_41_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_41_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FC21DDAC5A6004508A4 /* prideandprejudice_41_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_41_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_41_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FC31DDAC5A6004508A4 /* prideandprejudice_42_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_42_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_42_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FC41DDAC5A6004508A4 /* prideandprejudice_42_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_42_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_42_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FC51DDAC5A6004508A4 /* prideandprejudice_43_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_43_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_43_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FC61DDAC5A6004508A4 /* prideandprejudice_43_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_43_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_43_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FC71DDAC5A6004508A4 /* prideandprejudice_44_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_44_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_44_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FC81DDAC5A6004508A4 /* prideandprejudice_44_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_44_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_44_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FC91DDAC5A6004508A4 /* prideandprejudice_45_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_45_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_45_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FCA1DDAC5A6004508A4 /* prideandprejudice_45_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_45_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_45_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FCB1DDAC5A6004508A4 /* prideandprejudice_46_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_46_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_46_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FCC1DDAC5A6004508A4 /* prideandprejudice_46_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_46_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_46_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FCD1DDAC5A6004508A4 /* prideandprejudice_47_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_47_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_47_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FCE1DDAC5A6004508A4 /* prideandprejudice_47_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_47_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_47_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FCF1DDAC5A6004508A4 /* prideandprejudice_48_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_48_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_48_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FD01DDAC5A6004508A4 /* prideandprejudice_48_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_48_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_48_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FD11DDAC5A6004508A4 /* prideandprejudice_49_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_49_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_49_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FD21DDAC5A6004508A4 /* prideandprejudice_49_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_49_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_49_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FD31DDAC5A6004508A4 /* prideandprejudice_50_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_50_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_50_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FD41DDAC5A6004508A4 /* prideandprejudice_50_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_50_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_50_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FD51DDAC5A6004508A4 /* prideandprejudice_51_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_51_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_51_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FD61DDAC5A6004508A4 /* prideandprejudice_51_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_51_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_51_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FD71DDAC5A6004508A4 /* prideandprejudice_52_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_52_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_52_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FD81DDAC5A6004508A4 /* prideandprejudice_52_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_52_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_52_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FD91DDAC5A6004508A4 /* prideandprejudice_53_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_53_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_53_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FDA1DDAC5A6004508A4 /* prideandprejudice_53_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_53_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_53_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FDB1DDAC5A6004508A4 /* prideandprejudice_54_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_54_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_54_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FDC1DDAC5A6004508A4 /* prideandprejudice_54_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_54_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_54_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FDD1DDAC5A6004508A4 /* prideandprejudice_55_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_55_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_55_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FDE1DDAC5A6004508A4 /* prideandprejudice_55_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_55_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_55_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FDF1DDAC5A6004508A4 /* prideandprejudice_56_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_56_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_56_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FE01DDAC5A6004508A4 /* prideandprejudice_56_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_56_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_56_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FE11DDAC5A6004508A4 /* prideandprejudice_57_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_57_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_57_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FE21DDAC5A6004508A4 /* prideandprejudice_57_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_57_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_57_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FE31DDAC5A6004508A4 /* prideandprejudice_58_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_58_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_58_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FE41DDAC5A6004508A4 /* prideandprejudice_58_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_58_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_58_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FE51DDAC5A6004508A4 /* prideandprejudice_59_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_59_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_59_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FE61DDAC5A6004508A4 /* prideandprejudice_59_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_59_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_59_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FE71DDAC5A6004508A4 /* prideandprejudice_60_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_60_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_60_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FE81DDAC5A6004508A4 /* prideandprejudice_60_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_60_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_60_austen_64kb.xml; sourceTree = "<group>"; };
+		7A058FE91DDAC5A6004508A4 /* prideandprejudice_61_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_61_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_61_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A058FEA1DDAC5A6004508A4 /* prideandprejudice_61_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_61_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_full/audios/prideandprejudice_61_austen_64kb.xml; sourceTree = "<group>"; };
+		7A0590671DDAC671004508A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A0590681DDAC671004508A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A05906E1DDADCD3004508A4 /* PrideLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrideLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0590861DDAE3DB004508A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A0590871DDAE3DC004508A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A0590881DDAE3DC004508A4 /* BookCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCoverViewController.h; sourceTree = "<group>"; };
+		7A0590891DDAE3DC004508A4 /* BookCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCoverViewController.m; sourceTree = "<group>"; };
+		7A05908A1DDAE3DC004508A4 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		7A05908B1DDAE3DC004508A4 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		7A05908C1DDAE3DC004508A4 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		7A05908D1DDAE3DC004508A4 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		7A05908E1DDAE3DC004508A4 /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		7A05908F1DDAE3DC004508A4 /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		7A0590901DDAE3DC004508A4 /* Script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Script.h; sourceTree = "<group>"; };
+		7A0590911DDAE3DC004508A4 /* Script.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Script.m; sourceTree = "<group>"; };
+		7A0590921DDAE3DC004508A4 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		7A0590931DDAE3DC004508A4 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		7A0590951DDAE3DC004508A4 /* Jekyll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jekyll.png; sourceTree = "<group>"; };
+		7A0590971DDAE3DC004508A4 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		7A0590981DDAE3DC004508A4 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		7A0590991DDAE3DC004508A4 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		7A05909B1DDAE3DC004508A4 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		7A05909C1DDAE3DC004508A4 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		7A05909D1DDAE3DC004508A4 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		7A05909F1DDAE3DC004508A4 /* TBXML-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		7A0590AD1DDAE40F004508A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A0590B01DDAE40F004508A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		7A0590B11DDAE40F004508A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0590B21DDAE40F004508A4 /* iPhoneBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneBack.png; sourceTree = "<group>"; };
+		7A0590B31DDAE40F004508A4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A0590B41DDAE40F004508A4 /* My.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = My.plist; sourceTree = "<group>"; };
+		7A0590BE1DDAE876004508A4 /* list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = list.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_preview/audios/list.xml; sourceTree = "<group>"; };
+		7A0590BF1DDAE876004508A4 /* prideandprejudice_01_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_01_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_preview/audios/prideandprejudice_01_austen_64kb.mp3; sourceTree = "<group>"; };
+		7A0590C01DDAE876004508A4 /* prideandprejudice_01_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_01_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_preview/audios/prideandprejudice_01_austen_64kb.xml; sourceTree = "<group>"; };
 		7A1D56581DD59F1100A6C332 /* Jekyll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jekyll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1D565B1DD59F1100A6C332 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A1D56641DD59F1100A6C332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A1D56661DD59F1100A6C332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A1D56691DD59F1100A6C332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A1D566B1DD59F1100A6C332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A1D56841DD5A27000A6C332 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A1D56851DD5A27000A6C332 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,7 +463,6 @@
 		7A1D568D1DD5A29400A6C332 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
 		7A1D568E1DD5A29400A6C332 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
 		7A1D56901DD5A29400A6C332 /* TBXML-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		7A1D56911DD5A29400A6C332 /* TBXML-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-Prefix.pch"; sourceTree = "<group>"; };
 		7A1D56961DD5A2D300A6C332 /* BookCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCoverViewController.h; sourceTree = "<group>"; };
 		7A1D56971DD5A2D300A6C332 /* BookCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCoverViewController.m; sourceTree = "<group>"; };
 		7A1D56981DD5A2D300A6C332 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
@@ -162,22 +496,31 @@
 		7A1D56BB1DD5A31800A6C332 /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 10.mp3; path = ../../../../../Documents/Tab_Audios/Jykill_and_hyde_full/audios/10.mp3; sourceTree = "<group>"; };
 		7A1D56BC1DD5A31800A6C332 /* 10.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 10.xml; path = ../../../../../Documents/Tab_Audios/Jykill_and_hyde_full/audios/10.xml; sourceTree = "<group>"; };
 		7A1D56BD1DD5A31800A6C332 /* list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = list.xml; path = ../../../../../Documents/Tab_Audios/Jykill_and_hyde_full/audios/list.xml; sourceTree = "<group>"; };
-		7A1D56D41DD5A45A00A6C332 /* iPhoneBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneBack.png; sourceTree = "<group>"; };
+		7A1D56D41DD5A45A00A6C332 /* iPhoneBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneBack.png; path = ../Jekyll/iPhoneBack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31629C391DD45A000026B25E /* Frameworks */ = {
+		7A058ECD1DDAAB33004508A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31629CA11DD46DF20026B25E /* libz.tbd in Frameworks */,
+				7A058F211DDAADC5004508A4 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1D56391DD5973000A6C332 /* Frameworks */ = {
+		7A058F231DDAC1ED004508A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0590661DDAC624004508A4 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A05906B1DDADCD3004508A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0590BC1DDAE51A004508A4 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +538,10 @@
 		31629C151DD459E30026B25E = {
 			isa = PBXGroup;
 			children = (
-				31629CAE1DD4A9D80026B25E /* ABook.storyboard */,
-				31629C831DD466DE0026B25E /* TBXML-Code */,
-				31629C871DD466DE0026B25E /* TBXML-Headers */,
-				31629C8B1DD466DE0026B25E /* TBXML-Support */,
-				7A1D56531DD59E9D00A6C332 /* Classes */,
-				31629C3D1DD45A000026B25E /* J */,
-				7A1D563D1DD5973100A6C332 /* test */,
 				7A1D56591DD59F1100A6C332 /* Jekyll */,
+				7A058ED11DDAAB33004508A4 /* j */,
+				7A058F271DDAC1ED004508A4 /* Pride */,
+				7A05906F1DDADCD3004508A4 /* PrideLite */,
 				31629C1F1DD459E40026B25E /* Products */,
 				31629C9F1DD46DF10026B25E /* Frameworks */,
 			);
@@ -211,62 +550,12 @@
 		31629C1F1DD459E40026B25E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31629C3C1DD45A000026B25E /* J.app */,
-				7A1D563C1DD5973000A6C332 /* test.app */,
 				7A1D56581DD59F1100A6C332 /* Jekyll.app */,
+				7A058ED01DDAAB33004508A4 /* j.app */,
+				7A058F261DDAC1ED004508A4 /* Pride.app */,
+				7A05906E1DDADCD3004508A4 /* PrideLite.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		31629C3D1DD45A000026B25E /* J */ = {
-			isa = PBXGroup;
-			children = (
-				31629C9D1DD46A880026B25E /* iPhoneBack.png */,
-				31629C7C1DD466720026B25E /* audios */,
-				31629C4A1DD45A010026B25E /* Assets.xcassets */,
-				31629C4F1DD45A010026B25E /* Info.plist */,
-			);
-			path = J;
-			sourceTree = "<group>";
-		};
-		31629C7C1DD466720026B25E /* audios */ = {
-			isa = PBXGroup;
-			children = (
-				31629C7D1DD466720026B25E /* 1.mp3 */,
-				31629C7E1DD466720026B25E /* 1.xml */,
-				31629C7F1DD466720026B25E /* list.xml */,
-			);
-			name = audios;
-			path = ../../../../../Documents/TAB_Audios/Jykill_and_hyde_preview/audios;
-			sourceTree = "<group>";
-		};
-		31629C831DD466DE0026B25E /* TBXML-Code */ = {
-			isa = PBXGroup;
-			children = (
-				31629C841DD466DE0026B25E /* TBXML+Compression.m */,
-				31629C851DD466DE0026B25E /* TBXML+HTTP.m */,
-				31629C861DD466DE0026B25E /* TBXML.m */,
-			);
-			path = "TBXML-Code";
-			sourceTree = "<group>";
-		};
-		31629C871DD466DE0026B25E /* TBXML-Headers */ = {
-			isa = PBXGroup;
-			children = (
-				31629C881DD466DE0026B25E /* TBXML+Compression.h */,
-				31629C891DD466DE0026B25E /* TBXML+HTTP.h */,
-				31629C8A1DD466DE0026B25E /* TBXML.h */,
-			);
-			path = "TBXML-Headers";
-			sourceTree = "<group>";
-		};
-		31629C8B1DD466DE0026B25E /* TBXML-Support */ = {
-			isa = PBXGroup;
-			children = (
-				31629C8C1DD466DE0026B25E /* TBXML-iOS-Prefix.pch */,
-				31629C8D1DD466DE0026B25E /* TBXML-Prefix.pch */,
-			);
-			path = "TBXML-Support";
 			sourceTree = "<group>";
 		};
 		31629C9F1DD46DF10026B25E /* Frameworks */ = {
@@ -277,68 +566,440 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7A1D563D1DD5973100A6C332 /* test */ = {
+		7A058ED11DDAAB33004508A4 /* j */ = {
 			isa = PBXGroup;
 			children = (
-				7A1D56411DD5973100A6C332 /* AppDelegate.h */,
-				7A1D56421DD5973100A6C332 /* AppDelegate.m */,
-				7A1D56441DD5973100A6C332 /* ViewController.h */,
-				7A1D56451DD5973100A6C332 /* ViewController.m */,
-				7A1D56471DD5973100A6C332 /* Main.storyboard */,
-				7A1D564A1DD5973100A6C332 /* Assets.xcassets */,
-				7A1D564C1DD5973100A6C332 /* LaunchScreen.storyboard */,
-				7A1D564F1DD5973100A6C332 /* Info.plist */,
-				7A1D563E1DD5973100A6C332 /* Supporting Files */,
+				7A058F1A1DDAAD41004508A4 /* audios */,
+				7A058EFE1DDAAD1E004508A4 /* Classes */,
+				7A058F0B1DDAAD1E004508A4 /* images */,
+				7A058F0D1DDAAD1E004508A4 /* TBXML-Headers */,
+				7A058F111DDAAD1E004508A4 /* TBXML-Support */,
+				7A058EF71DDAACCA004508A4 /* TBXML-Code */,
+				7A058EE71DDAAC2C004508A4 /* AppDelegate.h */,
+				7A058EE81DDAAC2C004508A4 /* AppDelegate.m */,
+				7A058EE91DDAAC2C004508A4 /* Assets.xcassets */,
+				7A058EEA1DDAAC2C004508A4 /* Base.lproj */,
+				7A058EEF1DDAAC2C004508A4 /* iPhoneBack.png */,
+				7A058EF01DDAAC2C004508A4 /* My.plist */,
+				7A058EE31DDAAB33004508A4 /* Info.plist */,
+				7A058ED21DDAAB33004508A4 /* Supporting Files */,
 			);
-			path = test;
+			path = j;
 			sourceTree = "<group>";
 		};
-		7A1D563E1DD5973100A6C332 /* Supporting Files */ = {
+		7A058ED21DDAAB33004508A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A1D563F1DD5973100A6C332 /* main.m */,
+				7A058ED31DDAAB33004508A4 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7A1D56531DD59E9D00A6C332 /* Classes */ = {
+		7A058EEA1DDAAC2C004508A4 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				7A1D56361DD5962F00A6C332 /* main.m */,
-				31629D051DD545760026B25E /* AppDelegate.h */,
-				31629D061DD545760026B25E /* AppDelegate.m */,
-				31629CB61DD4AD330026B25E /* Script.h */,
-				31629CB71DD4AD330026B25E /* Script.m */,
-				31629CB01DD4AC790026B25E /* BookTableViewCell.h */,
-				31629CB11DD4AC790026B25E /* BookTableViewCell.m */,
-				31629CB21DD4AC790026B25E /* BookViewController.h */,
-				31629CB31DD4AC790026B25E /* BookViewController.m */,
-				31629CA81DD4A6D50026B25E /* BookCoverViewController.h */,
-				31629CA91DD4A6D50026B25E /* BookCoverViewController.m */,
-				31629CAA1DD4A6D50026B25E /* ContentsViewController.h */,
-				31629CAB1DD4A6D50026B25E /* ContentsViewController.m */,
-				31629CA51DD4A43E0026B25E /* Utils.h */,
-				31629CA61DD4A43E0026B25E /* Utils.m */,
+				7A058EEB1DDAAC2C004508A4 /* LaunchScreen.storyboard */,
+				7A058EED1DDAAC2C004508A4 /* Main.storyboard */,
 			);
-			name = Classes;
-			path = J;
+			name = Base.lproj;
+			path = J/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058EF71DDAACCA004508A4 /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				7A058EF81DDAACCA004508A4 /* TBXML+Compression.m */,
+				7A058EF91DDAACCA004508A4 /* TBXML+HTTP.m */,
+				7A058EFA1DDAACCA004508A4 /* TBXML.m */,
+			);
+			path = "TBXML-Code";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058EFE1DDAAD1E004508A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A058EFF1DDAAD1E004508A4 /* BookCoverViewController.h */,
+				7A058F001DDAAD1E004508A4 /* BookCoverViewController.m */,
+				7A058F011DDAAD1E004508A4 /* BookTableViewCell.h */,
+				7A058F021DDAAD1E004508A4 /* BookTableViewCell.m */,
+				7A058F031DDAAD1E004508A4 /* BookViewController.h */,
+				7A058F041DDAAD1E004508A4 /* BookViewController.m */,
+				7A058F051DDAAD1E004508A4 /* ContentsViewController.h */,
+				7A058F061DDAAD1E004508A4 /* ContentsViewController.m */,
+				7A058F071DDAAD1E004508A4 /* Script.h */,
+				7A058F081DDAAD1E004508A4 /* Script.m */,
+				7A058F091DDAAD1E004508A4 /* Utils.h */,
+				7A058F0A1DDAAD1E004508A4 /* Utils.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058F0B1DDAAD1E004508A4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F0C1DDAAD1E004508A4 /* Jekyll.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058F0D1DDAAD1E004508A4 /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F0E1DDAAD1E004508A4 /* TBXML+Compression.h */,
+				7A058F0F1DDAAD1E004508A4 /* TBXML+HTTP.h */,
+				7A058F101DDAAD1E004508A4 /* TBXML.h */,
+			);
+			path = "TBXML-Headers";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058F111DDAAD1E004508A4 /* TBXML-Support */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F121DDAAD1E004508A4 /* TBXML-iOS-Prefix.pch */,
+			);
+			path = "TBXML-Support";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058F1A1DDAAD41004508A4 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F1B1DDAAD65004508A4 /* 1.mp3 */,
+				7A058F1C1DDAAD65004508A4 /* 1.xml */,
+				7A058F1D1DDAAD65004508A4 /* list.xml */,
+			);
+			name = audios;
+			sourceTree = "<group>";
+		};
+		7A058F271DDAC1ED004508A4 /* Pride */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F6F1DDAC589004508A4 /* audios */,
+				7A058F601DDAC2D3004508A4 /* Assets.xcassets */,
+				7A058F611DDAC2D3004508A4 /* Base.lproj */,
+				7A058F661DDAC2D3004508A4 /* Info.plist */,
+				7A058F671DDAC2D3004508A4 /* iPhoneBack.png */,
+				7A058F681DDAC2D3004508A4 /* My.plist */,
+				7A058F3D1DDAC24D004508A4 /* Classes */,
+				7A058F4A1DDAC24D004508A4 /* images */,
+				7A058F4C1DDAC24D004508A4 /* TBXML-Code */,
+				7A058F501DDAC24D004508A4 /* TBXML-Headers */,
+				7A058F541DDAC24D004508A4 /* TBXML-Support */,
+				7A058F281DDAC1ED004508A4 /* Supporting Files */,
+			);
+			path = Pride;
+			sourceTree = "<group>";
+		};
+		7A058F281DDAC1ED004508A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F291DDAC1ED004508A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A058F3D1DDAC24D004508A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A0590671DDAC671004508A4 /* AppDelegate.h */,
+				7A0590681DDAC671004508A4 /* AppDelegate.m */,
+				7A058F3E1DDAC24D004508A4 /* BookCoverViewController.h */,
+				7A058F3F1DDAC24D004508A4 /* BookCoverViewController.m */,
+				7A058F401DDAC24D004508A4 /* BookTableViewCell.h */,
+				7A058F411DDAC24D004508A4 /* BookTableViewCell.m */,
+				7A058F421DDAC24D004508A4 /* BookViewController.h */,
+				7A058F431DDAC24D004508A4 /* BookViewController.m */,
+				7A058F441DDAC24D004508A4 /* ContentsViewController.h */,
+				7A058F451DDAC24D004508A4 /* ContentsViewController.m */,
+				7A058F461DDAC24D004508A4 /* Script.h */,
+				7A058F471DDAC24D004508A4 /* Script.m */,
+				7A058F481DDAC24D004508A4 /* Utils.h */,
+				7A058F491DDAC24D004508A4 /* Utils.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058F4A1DDAC24D004508A4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F4B1DDAC24D004508A4 /* Jekyll.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058F4C1DDAC24D004508A4 /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F4D1DDAC24D004508A4 /* TBXML+Compression.m */,
+				7A058F4E1DDAC24D004508A4 /* TBXML+HTTP.m */,
+				7A058F4F1DDAC24D004508A4 /* TBXML.m */,
+			);
+			path = "TBXML-Code";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058F501DDAC24D004508A4 /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F511DDAC24D004508A4 /* TBXML+Compression.h */,
+				7A058F521DDAC24D004508A4 /* TBXML+HTTP.h */,
+				7A058F531DDAC24D004508A4 /* TBXML.h */,
+			);
+			path = "TBXML-Headers";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058F541DDAC24D004508A4 /* TBXML-Support */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F551DDAC24D004508A4 /* TBXML-iOS-Prefix.pch */,
+			);
+			path = "TBXML-Support";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A058F611DDAC2D3004508A4 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F641DDAC2D3004508A4 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		7A058F6F1DDAC589004508A4 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				7A058F701DDAC5A6004508A4 /* list.xml */,
+				7A058F711DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.mp3 */,
+				7A058F721DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.xml */,
+				7A058F731DDAC5A6004508A4 /* prideandprejudice_02_austen_64kb.mp3 */,
+				7A058F741DDAC5A6004508A4 /* prideandprejudice_02_austen_64kb.xml */,
+				7A058F751DDAC5A6004508A4 /* prideandprejudice_03_austen_64kb.mp3 */,
+				7A058F761DDAC5A6004508A4 /* prideandprejudice_03_austen_64kb.xml */,
+				7A058F771DDAC5A6004508A4 /* prideandprejudice_04_austen_64kb.mp3 */,
+				7A058F781DDAC5A6004508A4 /* prideandprejudice_04_austen_64kb.xml */,
+				7A058F791DDAC5A6004508A4 /* prideandprejudice_05_austen_64kb.mp3 */,
+				7A058F7A1DDAC5A6004508A4 /* prideandprejudice_05_austen_64kb.xml */,
+				7A058F7B1DDAC5A6004508A4 /* prideandprejudice_06_austen_64kb.mp3 */,
+				7A058F7C1DDAC5A6004508A4 /* prideandprejudice_06_austen_64kb.xml */,
+				7A058F7D1DDAC5A6004508A4 /* prideandprejudice_07_austen_64kb.mp3 */,
+				7A058F7E1DDAC5A6004508A4 /* prideandprejudice_07_austen_64kb.xml */,
+				7A058F7F1DDAC5A6004508A4 /* prideandprejudice_08_austen_64kb.mp3 */,
+				7A058F801DDAC5A6004508A4 /* prideandprejudice_08_austen_64kb.xml */,
+				7A058F811DDAC5A6004508A4 /* prideandprejudice_09_austen_64kb.mp3 */,
+				7A058F821DDAC5A6004508A4 /* prideandprejudice_09_austen_64kb.xml */,
+				7A058F831DDAC5A6004508A4 /* prideandprejudice_10_austen_64kb.mp3 */,
+				7A058F841DDAC5A6004508A4 /* prideandprejudice_10_austen_64kb.xml */,
+				7A058F851DDAC5A6004508A4 /* prideandprejudice_11_austen_64kb.mp3 */,
+				7A058F861DDAC5A6004508A4 /* prideandprejudice_11_austen_64kb.xml */,
+				7A058F871DDAC5A6004508A4 /* prideandprejudice_12_austen_64kb.mp3 */,
+				7A058F881DDAC5A6004508A4 /* prideandprejudice_12_austen_64kb.xml */,
+				7A058F891DDAC5A6004508A4 /* prideandprejudice_13_austen_64kb.mp3 */,
+				7A058F8A1DDAC5A6004508A4 /* prideandprejudice_13_austen_64kb.xml */,
+				7A058F8B1DDAC5A6004508A4 /* prideandprejudice_14_austen_64kb.mp3 */,
+				7A058F8C1DDAC5A6004508A4 /* prideandprejudice_14_austen_64kb.xml */,
+				7A058F8D1DDAC5A6004508A4 /* prideandprejudice_15_austen_64kb.mp3 */,
+				7A058F8E1DDAC5A6004508A4 /* prideandprejudice_15_austen_64kb.xml */,
+				7A058F8F1DDAC5A6004508A4 /* prideandprejudice_16_austen_64kb.mp3 */,
+				7A058F901DDAC5A6004508A4 /* prideandprejudice_16_austen_64kb.xml */,
+				7A058F911DDAC5A6004508A4 /* prideandprejudice_17_austen_64kb.mp3 */,
+				7A058F921DDAC5A6004508A4 /* prideandprejudice_17_austen_64kb.xml */,
+				7A058F931DDAC5A6004508A4 /* prideandprejudice_18_austen_64kb.mp3 */,
+				7A058F941DDAC5A6004508A4 /* prideandprejudice_18_austen_64kb.xml */,
+				7A058F951DDAC5A6004508A4 /* prideandprejudice_19_austen_64kb.mp3 */,
+				7A058F961DDAC5A6004508A4 /* prideandprejudice_19_austen_64kb.xml */,
+				7A058F971DDAC5A6004508A4 /* prideandprejudice_20_austen_64kb.mp3 */,
+				7A058F981DDAC5A6004508A4 /* prideandprejudice_20_austen_64kb.xml */,
+				7A058F991DDAC5A6004508A4 /* prideandprejudice_21_austen_64kb.mp3 */,
+				7A058F9A1DDAC5A6004508A4 /* prideandprejudice_21_austen_64kb.xml */,
+				7A058F9B1DDAC5A6004508A4 /* prideandprejudice_22_austen_64kb.mp3 */,
+				7A058F9C1DDAC5A6004508A4 /* prideandprejudice_22_austen_64kb.xml */,
+				7A058F9D1DDAC5A6004508A4 /* prideandprejudice_23_austen_64kb.mp3 */,
+				7A058F9E1DDAC5A6004508A4 /* prideandprejudice_23_austen_64kb.xml */,
+				7A058F9F1DDAC5A6004508A4 /* prideandprejudice_24_austen_64kb.mp3 */,
+				7A058FA01DDAC5A6004508A4 /* prideandprejudice_24_austen_64kb.xml */,
+				7A058FA11DDAC5A6004508A4 /* prideandprejudice_25_austen_64kb.mp3 */,
+				7A058FA21DDAC5A6004508A4 /* prideandprejudice_25_austen_64kb.xml */,
+				7A058FA31DDAC5A6004508A4 /* prideandprejudice_26_austen_64kb.mp3 */,
+				7A058FA41DDAC5A6004508A4 /* prideandprejudice_26_austen_64kb.xml */,
+				7A058FA51DDAC5A6004508A4 /* prideandprejudice_27_austen_64kb.mp3 */,
+				7A058FA61DDAC5A6004508A4 /* prideandprejudice_27_austen_64kb.xml */,
+				7A058FA71DDAC5A6004508A4 /* prideandprejudice_28_austen_64kb.mp3 */,
+				7A058FA81DDAC5A6004508A4 /* prideandprejudice_28_austen_64kb.xml */,
+				7A058FA91DDAC5A6004508A4 /* prideandprejudice_29_austen_64kb.mp3 */,
+				7A058FAA1DDAC5A6004508A4 /* prideandprejudice_29_austen_64kb.xml */,
+				7A058FAB1DDAC5A6004508A4 /* prideandprejudice_30_austen_64kb.mp3 */,
+				7A058FAC1DDAC5A6004508A4 /* prideandprejudice_30_austen_64kb.xml */,
+				7A058FAD1DDAC5A6004508A4 /* prideandprejudice_31_austen_64kb.mp3 */,
+				7A058FAE1DDAC5A6004508A4 /* prideandprejudice_31_austen_64kb.xml */,
+				7A058FAF1DDAC5A6004508A4 /* prideandprejudice_32_austen_64kb.mp3 */,
+				7A058FB01DDAC5A6004508A4 /* prideandprejudice_32_austen_64kb.xml */,
+				7A058FB11DDAC5A6004508A4 /* prideandprejudice_33_austen_64kb.mp3 */,
+				7A058FB21DDAC5A6004508A4 /* prideandprejudice_33_austen_64kb.xml */,
+				7A058FB31DDAC5A6004508A4 /* prideandprejudice_34_austen_64kb.mp3 */,
+				7A058FB41DDAC5A6004508A4 /* prideandprejudice_34_austen_64kb.xml */,
+				7A058FB51DDAC5A6004508A4 /* prideandprejudice_35_austen_64kb.mp3 */,
+				7A058FB61DDAC5A6004508A4 /* prideandprejudice_35_austen_64kb.xml */,
+				7A058FB71DDAC5A6004508A4 /* prideandprejudice_36_austen_64kb.mp3 */,
+				7A058FB81DDAC5A6004508A4 /* prideandprejudice_36_austen_64kb.xml */,
+				7A058FB91DDAC5A6004508A4 /* prideandprejudice_37_austen_64kb.mp3 */,
+				7A058FBA1DDAC5A6004508A4 /* prideandprejudice_37_austen_64kb.xml */,
+				7A058FBB1DDAC5A6004508A4 /* prideandprejudice_38_austen_64kb.mp3 */,
+				7A058FBC1DDAC5A6004508A4 /* prideandprejudice_38_austen_64kb.xml */,
+				7A058FBD1DDAC5A6004508A4 /* prideandprejudice_39_austen_64kb.mp3 */,
+				7A058FBE1DDAC5A6004508A4 /* prideandprejudice_39_austen_64kb.xml */,
+				7A058FBF1DDAC5A6004508A4 /* prideandprejudice_40_austen_64kb.mp3 */,
+				7A058FC01DDAC5A6004508A4 /* prideandprejudice_40_austen_64kb.xml */,
+				7A058FC11DDAC5A6004508A4 /* prideandprejudice_41_austen_64kb.mp3 */,
+				7A058FC21DDAC5A6004508A4 /* prideandprejudice_41_austen_64kb.xml */,
+				7A058FC31DDAC5A6004508A4 /* prideandprejudice_42_austen_64kb.mp3 */,
+				7A058FC41DDAC5A6004508A4 /* prideandprejudice_42_austen_64kb.xml */,
+				7A058FC51DDAC5A6004508A4 /* prideandprejudice_43_austen_64kb.mp3 */,
+				7A058FC61DDAC5A6004508A4 /* prideandprejudice_43_austen_64kb.xml */,
+				7A058FC71DDAC5A6004508A4 /* prideandprejudice_44_austen_64kb.mp3 */,
+				7A058FC81DDAC5A6004508A4 /* prideandprejudice_44_austen_64kb.xml */,
+				7A058FC91DDAC5A6004508A4 /* prideandprejudice_45_austen_64kb.mp3 */,
+				7A058FCA1DDAC5A6004508A4 /* prideandprejudice_45_austen_64kb.xml */,
+				7A058FCB1DDAC5A6004508A4 /* prideandprejudice_46_austen_64kb.mp3 */,
+				7A058FCC1DDAC5A6004508A4 /* prideandprejudice_46_austen_64kb.xml */,
+				7A058FCD1DDAC5A6004508A4 /* prideandprejudice_47_austen_64kb.mp3 */,
+				7A058FCE1DDAC5A6004508A4 /* prideandprejudice_47_austen_64kb.xml */,
+				7A058FCF1DDAC5A6004508A4 /* prideandprejudice_48_austen_64kb.mp3 */,
+				7A058FD01DDAC5A6004508A4 /* prideandprejudice_48_austen_64kb.xml */,
+				7A058FD11DDAC5A6004508A4 /* prideandprejudice_49_austen_64kb.mp3 */,
+				7A058FD21DDAC5A6004508A4 /* prideandprejudice_49_austen_64kb.xml */,
+				7A058FD31DDAC5A6004508A4 /* prideandprejudice_50_austen_64kb.mp3 */,
+				7A058FD41DDAC5A6004508A4 /* prideandprejudice_50_austen_64kb.xml */,
+				7A058FD51DDAC5A6004508A4 /* prideandprejudice_51_austen_64kb.mp3 */,
+				7A058FD61DDAC5A6004508A4 /* prideandprejudice_51_austen_64kb.xml */,
+				7A058FD71DDAC5A6004508A4 /* prideandprejudice_52_austen_64kb.mp3 */,
+				7A058FD81DDAC5A6004508A4 /* prideandprejudice_52_austen_64kb.xml */,
+				7A058FD91DDAC5A6004508A4 /* prideandprejudice_53_austen_64kb.mp3 */,
+				7A058FDA1DDAC5A6004508A4 /* prideandprejudice_53_austen_64kb.xml */,
+				7A058FDB1DDAC5A6004508A4 /* prideandprejudice_54_austen_64kb.mp3 */,
+				7A058FDC1DDAC5A6004508A4 /* prideandprejudice_54_austen_64kb.xml */,
+				7A058FDD1DDAC5A6004508A4 /* prideandprejudice_55_austen_64kb.mp3 */,
+				7A058FDE1DDAC5A6004508A4 /* prideandprejudice_55_austen_64kb.xml */,
+				7A058FDF1DDAC5A6004508A4 /* prideandprejudice_56_austen_64kb.mp3 */,
+				7A058FE01DDAC5A6004508A4 /* prideandprejudice_56_austen_64kb.xml */,
+				7A058FE11DDAC5A6004508A4 /* prideandprejudice_57_austen_64kb.mp3 */,
+				7A058FE21DDAC5A6004508A4 /* prideandprejudice_57_austen_64kb.xml */,
+				7A058FE31DDAC5A6004508A4 /* prideandprejudice_58_austen_64kb.mp3 */,
+				7A058FE41DDAC5A6004508A4 /* prideandprejudice_58_austen_64kb.xml */,
+				7A058FE51DDAC5A6004508A4 /* prideandprejudice_59_austen_64kb.mp3 */,
+				7A058FE61DDAC5A6004508A4 /* prideandprejudice_59_austen_64kb.xml */,
+				7A058FE71DDAC5A6004508A4 /* prideandprejudice_60_austen_64kb.mp3 */,
+				7A058FE81DDAC5A6004508A4 /* prideandprejudice_60_austen_64kb.xml */,
+				7A058FE91DDAC5A6004508A4 /* prideandprejudice_61_austen_64kb.mp3 */,
+				7A058FEA1DDAC5A6004508A4 /* prideandprejudice_61_austen_64kb.xml */,
+			);
+			name = audios;
+			sourceTree = "<group>";
+		};
+		7A05906F1DDADCD3004508A4 /* PrideLite */ = {
+			isa = PBXGroup;
+			children = (
+				7A0590BD1DDAE838004508A4 /* audios */,
+				7A0590AD1DDAE40F004508A4 /* Assets.xcassets */,
+				7A0590AE1DDAE40F004508A4 /* Base.lproj */,
+				7A0590B11DDAE40F004508A4 /* Info.plist */,
+				7A0590B21DDAE40F004508A4 /* iPhoneBack.png */,
+				7A0590B31DDAE40F004508A4 /* main.m */,
+				7A0590B41DDAE40F004508A4 /* My.plist */,
+				7A0590851DDAE3DB004508A4 /* Classes */,
+				7A0590941DDAE3DC004508A4 /* images */,
+				7A0590961DDAE3DC004508A4 /* TBXML-Code */,
+				7A05909A1DDAE3DC004508A4 /* TBXML-Headers */,
+				7A05909E1DDAE3DC004508A4 /* TBXML-Support */,
+			);
+			path = PrideLite;
+			sourceTree = "<group>";
+		};
+		7A0590851DDAE3DB004508A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A0590861DDAE3DB004508A4 /* AppDelegate.h */,
+				7A0590871DDAE3DC004508A4 /* AppDelegate.m */,
+				7A0590881DDAE3DC004508A4 /* BookCoverViewController.h */,
+				7A0590891DDAE3DC004508A4 /* BookCoverViewController.m */,
+				7A05908A1DDAE3DC004508A4 /* BookTableViewCell.h */,
+				7A05908B1DDAE3DC004508A4 /* BookTableViewCell.m */,
+				7A05908C1DDAE3DC004508A4 /* BookViewController.h */,
+				7A05908D1DDAE3DC004508A4 /* BookViewController.m */,
+				7A05908E1DDAE3DC004508A4 /* ContentsViewController.h */,
+				7A05908F1DDAE3DC004508A4 /* ContentsViewController.m */,
+				7A0590901DDAE3DC004508A4 /* Script.h */,
+				7A0590911DDAE3DC004508A4 /* Script.m */,
+				7A0590921DDAE3DC004508A4 /* Utils.h */,
+				7A0590931DDAE3DC004508A4 /* Utils.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A0590941DDAE3DC004508A4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7A0590951DDAE3DC004508A4 /* Jekyll.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A0590961DDAE3DC004508A4 /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				7A0590971DDAE3DC004508A4 /* TBXML+Compression.m */,
+				7A0590981DDAE3DC004508A4 /* TBXML+HTTP.m */,
+				7A0590991DDAE3DC004508A4 /* TBXML.m */,
+			);
+			path = "TBXML-Code";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A05909A1DDAE3DC004508A4 /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7A05909B1DDAE3DC004508A4 /* TBXML+Compression.h */,
+				7A05909C1DDAE3DC004508A4 /* TBXML+HTTP.h */,
+				7A05909D1DDAE3DC004508A4 /* TBXML.h */,
+			);
+			path = "TBXML-Headers";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A05909E1DDAE3DC004508A4 /* TBXML-Support */ = {
+			isa = PBXGroup;
+			children = (
+				7A05909F1DDAE3DC004508A4 /* TBXML-iOS-Prefix.pch */,
+			);
+			path = "TBXML-Support";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A0590AE1DDAE40F004508A4 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7A0590AF1DDAE40F004508A4 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		7A0590BD1DDAE838004508A4 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				7A0590BE1DDAE876004508A4 /* list.xml */,
+				7A0590BF1DDAE876004508A4 /* prideandprejudice_01_austen_64kb.mp3 */,
+				7A0590C01DDAE876004508A4 /* prideandprejudice_01_austen_64kb.xml */,
+			);
+			name = audios;
 			sourceTree = "<group>";
 		};
 		7A1D56591DD59F1100A6C332 /* Jekyll */ = {
 			isa = PBXGroup;
 			children = (
-				7A1D56D41DD5A45A00A6C332 /* iPhoneBack.png */,
-				7A1D56A81DD5A2E500A6C332 /* audios */,
-				7A1D56951DD5A2D300A6C332 /* Classes */,
 				7A1D56871DD5A29400A6C332 /* TBXML-Code */,
 				7A1D568B1DD5A29400A6C332 /* TBXML-Headers */,
 				7A1D568F1DD5A29400A6C332 /* TBXML-Support */,
+				7A1D56A81DD5A2E500A6C332 /* audios */,
+				7A1D56951DD5A2D300A6C332 /* Classes */,
 				7A1D56841DD5A27000A6C332 /* AppDelegate.h */,
 				7A1D56851DD5A27000A6C332 /* AppDelegate.m */,
 				7A1D56631DD59F1100A6C332 /* Main.storyboard */,
 				7A1D56661DD59F1100A6C332 /* Assets.xcassets */,
-				7A1D56681DD59F1100A6C332 /* LaunchScreen.storyboard */,
 				7A1D566B1DD59F1100A6C332 /* Info.plist */,
+				316258B21DD89E7D00A9911A /* My.plist */,
 				7A1D565A1DD59F1100A6C332 /* Supporting Files */,
 			);
 			path = Jekyll;
@@ -376,7 +1037,6 @@
 			isa = PBXGroup;
 			children = (
 				7A1D56901DD5A29400A6C332 /* TBXML-iOS-Prefix.pch */,
-				7A1D56911DD5A29400A6C332 /* TBXML-Prefix.pch */,
 			);
 			path = "TBXML-Support";
 			sourceTree = SOURCE_ROOT;
@@ -384,6 +1044,7 @@
 		7A1D56951DD5A2D300A6C332 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7A1D56D41DD5A45A00A6C332 /* iPhoneBack.png */,
 				7A1D56961DD5A2D300A6C332 /* BookCoverViewController.h */,
 				7A1D56971DD5A2D300A6C332 /* BookCoverViewController.m */,
 				7A1D56981DD5A2D300A6C332 /* BookTableViewCell.h */,
@@ -431,38 +1092,55 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31629C3B1DD45A000026B25E /* J */ = {
+		7A058ECF1DDAAB33004508A4 /* j */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31629C501DD45A010026B25E /* Build configuration list for PBXNativeTarget "J" */;
+			buildConfigurationList = 7A058EE61DDAAB33004508A4 /* Build configuration list for PBXNativeTarget "j" */;
 			buildPhases = (
-				31629C381DD45A000026B25E /* Sources */,
-				31629C391DD45A000026B25E /* Frameworks */,
-				31629C3A1DD45A000026B25E /* Resources */,
+				7A058ECC1DDAAB33004508A4 /* Sources */,
+				7A058ECD1DDAAB33004508A4 /* Frameworks */,
+				7A058ECE1DDAAB33004508A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = J;
-			productName = J;
-			productReference = 31629C3C1DD45A000026B25E /* J.app */;
+			name = j;
+			productName = j;
+			productReference = 7A058ED01DDAAB33004508A4 /* j.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7A1D563B1DD5973000A6C332 /* test */ = {
+		7A058F251DDAC1ED004508A4 /* Pride */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A1D56501DD5973100A6C332 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 7A058F3C1DDAC1ED004508A4 /* Build configuration list for PBXNativeTarget "Pride" */;
 			buildPhases = (
-				7A1D56381DD5973000A6C332 /* Sources */,
-				7A1D56391DD5973000A6C332 /* Frameworks */,
-				7A1D563A1DD5973000A6C332 /* Resources */,
+				7A058F221DDAC1ED004508A4 /* Sources */,
+				7A058F231DDAC1ED004508A4 /* Frameworks */,
+				7A058F241DDAC1ED004508A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = test;
-			productName = test;
-			productReference = 7A1D563C1DD5973000A6C332 /* test.app */;
+			name = Pride;
+			productName = Pride;
+			productReference = 7A058F261DDAC1ED004508A4 /* Pride.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A05906D1DDADCD3004508A4 /* PrideLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0590821DDADCD4004508A4 /* Build configuration list for PBXNativeTarget "PrideLite" */;
+			buildPhases = (
+				7A05906A1DDADCD3004508A4 /* Sources */,
+				7A05906B1DDADCD3004508A4 /* Frameworks */,
+				7A05906C1DDADCD3004508A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrideLite;
+			productName = PrideLite;
+			productReference = 7A05906E1DDADCD3004508A4 /* PrideLite.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7A1D56571DD59F1100A6C332 /* Jekyll */ = {
@@ -491,20 +1169,25 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = highwill;
 				TargetAttributes = {
-					31629C3B1DD45A000026B25E = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = JN4U23SWSX;
-						ProvisioningStyle = Automatic;
-					};
-					7A1D563B1DD5973000A6C332 = {
+					7A058ECF1DDAAB33004508A4 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = JN4U23SWSX;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+					};
+					7A058F251DDAC1ED004508A4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JN4U23SWSX;
+						ProvisioningStyle = Manual;
+					};
+					7A05906D1DDADCD3004508A4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JN4U23SWSX;
+						ProvisioningStyle = Manual;
 					};
 					7A1D56571DD59F1100A6C332 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = JN4U23SWSX;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -521,34 +1204,180 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31629C3B1DD45A000026B25E /* J */,
-				7A1D563B1DD5973000A6C332 /* test */,
 				7A1D56571DD59F1100A6C332 /* Jekyll */,
+				7A058ECF1DDAAB33004508A4 /* j */,
+				7A058F251DDAC1ED004508A4 /* Pride */,
+				7A05906D1DDADCD3004508A4 /* PrideLite */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		31629C3A1DD45A000026B25E /* Resources */ = {
+		7A058ECE1DDAAB33004508A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31629C801DD466720026B25E /* 1.mp3 in Resources */,
-				31629C4B1DD45A010026B25E /* Assets.xcassets in Resources */,
-				31629CAF1DD4A9D80026B25E /* ABook.storyboard in Resources */,
-				31629C821DD466720026B25E /* list.xml in Resources */,
-				31629C811DD466720026B25E /* 1.xml in Resources */,
-				31629C9E1DD46A880026B25E /* iPhoneBack.png in Resources */,
+				7A058EF41DDAAC2C004508A4 /* Main.storyboard in Resources */,
+				7A058EF51DDAAC2C004508A4 /* iPhoneBack.png in Resources */,
+				7A058F1E1DDAAD65004508A4 /* 1.mp3 in Resources */,
+				7A058F201DDAAD65004508A4 /* list.xml in Resources */,
+				7A058F191DDAAD1E004508A4 /* Jekyll.png in Resources */,
+				7A058EF21DDAAC2C004508A4 /* Assets.xcassets in Resources */,
+				7A058F1F1DDAAD65004508A4 /* 1.xml in Resources */,
+				7A058EF31DDAAC2C004508A4 /* LaunchScreen.storyboard in Resources */,
+				7A058EF61DDAAC2C004508A4 /* My.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1D563A1DD5973000A6C332 /* Resources */ = {
+		7A058F241DDAC1ED004508A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1D564E1DD5973100A6C332 /* LaunchScreen.storyboard in Resources */,
-				7A1D564B1DD5973100A6C332 /* Assets.xcassets in Resources */,
-				7A1D56491DD5973100A6C332 /* Main.storyboard in Resources */,
+				7A0590541DDAC5A7004508A4 /* prideandprejudice_53_austen_64kb.mp3 in Resources */,
+				7A05901E1DDAC5A7004508A4 /* prideandprejudice_26_austen_64kb.mp3 in Resources */,
+				7A05905B1DDAC5A7004508A4 /* prideandprejudice_56_austen_64kb.xml in Resources */,
+				7A05900C1DDAC5A7004508A4 /* prideandprejudice_17_austen_64kb.mp3 in Resources */,
+				7A058FED1DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.xml in Resources */,
+				7A0590451DDAC5A7004508A4 /* prideandprejudice_45_austen_64kb.xml in Resources */,
+				7A05905F1DDAC5A7004508A4 /* prideandprejudice_58_austen_64kb.xml in Resources */,
+				7A05905A1DDAC5A7004508A4 /* prideandprejudice_56_austen_64kb.mp3 in Resources */,
+				7A058FFC1DDAC5A7004508A4 /* prideandprejudice_09_austen_64kb.mp3 in Resources */,
+				7A0590581DDAC5A7004508A4 /* prideandprejudice_55_austen_64kb.mp3 in Resources */,
+				7A0590151DDAC5A7004508A4 /* prideandprejudice_21_austen_64kb.xml in Resources */,
+				7A05903C1DDAC5A7004508A4 /* prideandprejudice_41_austen_64kb.mp3 in Resources */,
+				7A05903F1DDAC5A7004508A4 /* prideandprejudice_42_austen_64kb.xml in Resources */,
+				7A05905C1DDAC5A7004508A4 /* prideandprejudice_57_austen_64kb.mp3 in Resources */,
+				7A0590621DDAC5A7004508A4 /* prideandprejudice_60_austen_64kb.mp3 in Resources */,
+				7A058FF91DDAC5A7004508A4 /* prideandprejudice_07_austen_64kb.xml in Resources */,
+				7A058FFF1DDAC5A7004508A4 /* prideandprejudice_10_austen_64kb.xml in Resources */,
+				7A0590631DDAC5A7004508A4 /* prideandprejudice_60_austen_64kb.xml in Resources */,
+				7A0590011DDAC5A7004508A4 /* prideandprejudice_11_austen_64kb.xml in Resources */,
+				7A058F6E1DDAC2D3004508A4 /* My.plist in Resources */,
+				7A058FEE1DDAC5A6004508A4 /* prideandprejudice_02_austen_64kb.mp3 in Resources */,
+				7A05900F1DDAC5A7004508A4 /* prideandprejudice_18_austen_64kb.xml in Resources */,
+				7A0590461DDAC5A7004508A4 /* prideandprejudice_46_austen_64kb.mp3 in Resources */,
+				7A05904E1DDAC5A7004508A4 /* prideandprejudice_50_austen_64kb.mp3 in Resources */,
+				7A0590001DDAC5A7004508A4 /* prideandprejudice_11_austen_64kb.mp3 in Resources */,
+				7A058FEC1DDAC5A6004508A4 /* prideandprejudice_01_austen_64kb.mp3 in Resources */,
+				7A058FF61DDAC5A7004508A4 /* prideandprejudice_06_austen_64kb.mp3 in Resources */,
+				7A05904F1DDAC5A7004508A4 /* prideandprejudice_50_austen_64kb.xml in Resources */,
+				7A058F691DDAC2D3004508A4 /* Assets.xcassets in Resources */,
+				7A05902B1DDAC5A7004508A4 /* prideandprejudice_32_austen_64kb.xml in Resources */,
+				7A05903A1DDAC5A7004508A4 /* prideandprejudice_40_austen_64kb.mp3 in Resources */,
+				7A0590641DDAC5A7004508A4 /* prideandprejudice_61_austen_64kb.mp3 in Resources */,
+				7A0590491DDAC5A7004508A4 /* prideandprejudice_47_austen_64kb.xml in Resources */,
+				7A0590251DDAC5A7004508A4 /* prideandprejudice_29_austen_64kb.xml in Resources */,
+				7A0590531DDAC5A7004508A4 /* prideandprejudice_52_austen_64kb.xml in Resources */,
+				7A0590361DDAC5A7004508A4 /* prideandprejudice_38_austen_64kb.mp3 in Resources */,
+				7A058F5C1DDAC24D004508A4 /* Jekyll.png in Resources */,
+				7A0590341DDAC5A7004508A4 /* prideandprejudice_37_austen_64kb.mp3 in Resources */,
+				7A0590041DDAC5A7004508A4 /* prideandprejudice_13_austen_64kb.mp3 in Resources */,
+				7A05900D1DDAC5A7004508A4 /* prideandprejudice_17_austen_64kb.xml in Resources */,
+				7A0590181DDAC5A7004508A4 /* prideandprejudice_23_austen_64kb.mp3 in Resources */,
+				7A0590321DDAC5A7004508A4 /* prideandprejudice_36_austen_64kb.mp3 in Resources */,
+				7A05902F1DDAC5A7004508A4 /* prideandprejudice_34_austen_64kb.xml in Resources */,
+				7A05905E1DDAC5A7004508A4 /* prideandprejudice_58_austen_64kb.mp3 in Resources */,
+				7A0590521DDAC5A7004508A4 /* prideandprejudice_52_austen_64kb.mp3 in Resources */,
+				7A0590111DDAC5A7004508A4 /* prideandprejudice_19_austen_64kb.xml in Resources */,
+				7A05900A1DDAC5A7004508A4 /* prideandprejudice_16_austen_64kb.mp3 in Resources */,
+				7A05900B1DDAC5A7004508A4 /* prideandprejudice_16_austen_64kb.xml in Resources */,
+				7A0590401DDAC5A7004508A4 /* prideandprejudice_43_austen_64kb.mp3 in Resources */,
+				7A0590161DDAC5A7004508A4 /* prideandprejudice_22_austen_64kb.mp3 in Resources */,
+				7A0590441DDAC5A7004508A4 /* prideandprejudice_45_austen_64kb.mp3 in Resources */,
+				7A0590091DDAC5A7004508A4 /* prideandprejudice_15_austen_64kb.xml in Resources */,
+				7A0590411DDAC5A7004508A4 /* prideandprejudice_43_austen_64kb.xml in Resources */,
+				7A0590431DDAC5A7004508A4 /* prideandprejudice_44_austen_64kb.xml in Resources */,
+				7A0590311DDAC5A7004508A4 /* prideandprejudice_35_austen_64kb.xml in Resources */,
+				7A05904B1DDAC5A7004508A4 /* prideandprejudice_48_austen_64kb.xml in Resources */,
+				7A05902A1DDAC5A7004508A4 /* prideandprejudice_32_austen_64kb.mp3 in Resources */,
+				7A0590591DDAC5A7004508A4 /* prideandprejudice_55_austen_64kb.xml in Resources */,
+				7A05901C1DDAC5A7004508A4 /* prideandprejudice_25_austen_64kb.mp3 in Resources */,
+				7A05904D1DDAC5A7004508A4 /* prideandprejudice_49_austen_64kb.xml in Resources */,
+				7A0590121DDAC5A7004508A4 /* prideandprejudice_20_austen_64kb.mp3 in Resources */,
+				7A0590481DDAC5A7004508A4 /* prideandprejudice_47_austen_64kb.mp3 in Resources */,
+				7A058FF21DDAC5A7004508A4 /* prideandprejudice_04_austen_64kb.mp3 in Resources */,
+				7A0590421DDAC5A7004508A4 /* prideandprejudice_44_austen_64kb.mp3 in Resources */,
+				7A0590371DDAC5A7004508A4 /* prideandprejudice_38_austen_64kb.xml in Resources */,
+				7A0590571DDAC5A7004508A4 /* prideandprejudice_54_austen_64kb.xml in Resources */,
+				7A0590081DDAC5A7004508A4 /* prideandprejudice_15_austen_64kb.mp3 in Resources */,
+				7A058FF71DDAC5A7004508A4 /* prideandprejudice_06_austen_64kb.xml in Resources */,
+				7A0590331DDAC5A7004508A4 /* prideandprejudice_36_austen_64kb.xml in Resources */,
+				7A0590201DDAC5A7004508A4 /* prideandprejudice_27_austen_64kb.mp3 in Resources */,
+				7A0590051DDAC5A7004508A4 /* prideandprejudice_13_austen_64kb.xml in Resources */,
+				7A0590031DDAC5A7004508A4 /* prideandprejudice_12_austen_64kb.xml in Resources */,
+				7A0590301DDAC5A7004508A4 /* prideandprejudice_35_austen_64kb.mp3 in Resources */,
+				7A05901F1DDAC5A7004508A4 /* prideandprejudice_26_austen_64kb.xml in Resources */,
+				7A058FFA1DDAC5A7004508A4 /* prideandprejudice_08_austen_64kb.mp3 in Resources */,
+				7A058F6D1DDAC2D3004508A4 /* iPhoneBack.png in Resources */,
+				7A0590241DDAC5A7004508A4 /* prideandprejudice_29_austen_64kb.mp3 in Resources */,
+				7A058FFE1DDAC5A7004508A4 /* prideandprejudice_10_austen_64kb.mp3 in Resources */,
+				7A05904C1DDAC5A7004508A4 /* prideandprejudice_49_austen_64kb.mp3 in Resources */,
+				7A0590551DDAC5A7004508A4 /* prideandprejudice_53_austen_64kb.xml in Resources */,
+				7A05901B1DDAC5A7004508A4 /* prideandprejudice_24_austen_64kb.xml in Resources */,
+				7A0590351DDAC5A7004508A4 /* prideandprejudice_37_austen_64kb.xml in Resources */,
+				7A05902D1DDAC5A7004508A4 /* prideandprejudice_33_austen_64kb.xml in Resources */,
+				7A058FF31DDAC5A7004508A4 /* prideandprejudice_04_austen_64kb.xml in Resources */,
+				7A0590281DDAC5A7004508A4 /* prideandprejudice_31_austen_64kb.mp3 in Resources */,
+				7A058F6C1DDAC2D3004508A4 /* Info.plist in Resources */,
+				7A0590071DDAC5A7004508A4 /* prideandprejudice_14_austen_64kb.xml in Resources */,
+				7A0590271DDAC5A7004508A4 /* prideandprejudice_30_austen_64kb.xml in Resources */,
+				7A0590471DDAC5A7004508A4 /* prideandprejudice_46_austen_64kb.xml in Resources */,
+				7A0590501DDAC5A7004508A4 /* prideandprejudice_51_austen_64kb.mp3 in Resources */,
+				7A05903D1DDAC5A7004508A4 /* prideandprejudice_41_austen_64kb.xml in Resources */,
+				7A0590381DDAC5A7004508A4 /* prideandprejudice_39_austen_64kb.mp3 in Resources */,
+				7A058F6B1DDAC2D3004508A4 /* Main.storyboard in Resources */,
+				7A0590261DDAC5A7004508A4 /* prideandprejudice_30_austen_64kb.mp3 in Resources */,
+				7A058FEF1DDAC5A7004508A4 /* prideandprejudice_02_austen_64kb.xml in Resources */,
+				7A0590021DDAC5A7004508A4 /* prideandprejudice_12_austen_64kb.mp3 in Resources */,
+				7A05903E1DDAC5A7004508A4 /* prideandprejudice_42_austen_64kb.mp3 in Resources */,
+				7A0590511DDAC5A7004508A4 /* prideandprejudice_51_austen_64kb.xml in Resources */,
+				7A0590191DDAC5A7004508A4 /* prideandprejudice_23_austen_64kb.xml in Resources */,
+				7A058FFD1DDAC5A7004508A4 /* prideandprejudice_09_austen_64kb.xml in Resources */,
+				7A058FF11DDAC5A7004508A4 /* prideandprejudice_03_austen_64kb.xml in Resources */,
+				7A0590651DDAC5A7004508A4 /* prideandprejudice_61_austen_64kb.xml in Resources */,
+				7A0590061DDAC5A7004508A4 /* prideandprejudice_14_austen_64kb.mp3 in Resources */,
+				7A05902C1DDAC5A7004508A4 /* prideandprejudice_33_austen_64kb.mp3 in Resources */,
+				7A05901A1DDAC5A7004508A4 /* prideandprejudice_24_austen_64kb.mp3 in Resources */,
+				7A0590211DDAC5A7004508A4 /* prideandprejudice_27_austen_64kb.xml in Resources */,
+				7A058FF81DDAC5A7004508A4 /* prideandprejudice_07_austen_64kb.mp3 in Resources */,
+				7A0590611DDAC5A7004508A4 /* prideandprejudice_59_austen_64kb.xml in Resources */,
+				7A0590131DDAC5A7004508A4 /* prideandprejudice_20_austen_64kb.xml in Resources */,
+				7A058FF41DDAC5A7004508A4 /* prideandprejudice_05_austen_64kb.mp3 in Resources */,
+				7A0590561DDAC5A7004508A4 /* prideandprejudice_54_austen_64kb.mp3 in Resources */,
+				7A05904A1DDAC5A7004508A4 /* prideandprejudice_48_austen_64kb.mp3 in Resources */,
+				7A0590221DDAC5A7004508A4 /* prideandprejudice_28_austen_64kb.mp3 in Resources */,
+				7A05903B1DDAC5A7004508A4 /* prideandprejudice_40_austen_64kb.xml in Resources */,
+				7A0590101DDAC5A7004508A4 /* prideandprejudice_19_austen_64kb.mp3 in Resources */,
+				7A05900E1DDAC5A7004508A4 /* prideandprejudice_18_austen_64kb.mp3 in Resources */,
+				7A05901D1DDAC5A7004508A4 /* prideandprejudice_25_austen_64kb.xml in Resources */,
+				7A0590391DDAC5A7004508A4 /* prideandprejudice_39_austen_64kb.xml in Resources */,
+				7A0590171DDAC5A7004508A4 /* prideandprejudice_22_austen_64kb.xml in Resources */,
+				7A0590141DDAC5A7004508A4 /* prideandprejudice_21_austen_64kb.mp3 in Resources */,
+				7A05902E1DDAC5A7004508A4 /* prideandprejudice_34_austen_64kb.mp3 in Resources */,
+				7A058FEB1DDAC5A6004508A4 /* list.xml in Resources */,
+				7A058FF01DDAC5A7004508A4 /* prideandprejudice_03_austen_64kb.mp3 in Resources */,
+				7A0590601DDAC5A7004508A4 /* prideandprejudice_59_austen_64kb.mp3 in Resources */,
+				7A05905D1DDAC5A7004508A4 /* prideandprejudice_57_austen_64kb.xml in Resources */,
+				7A058FFB1DDAC5A7004508A4 /* prideandprejudice_08_austen_64kb.xml in Resources */,
+				7A058FF51DDAC5A7004508A4 /* prideandprejudice_05_austen_64kb.xml in Resources */,
+				7A0590291DDAC5A7004508A4 /* prideandprejudice_31_austen_64kb.xml in Resources */,
+				7A0590231DDAC5A7004508A4 /* prideandprejudice_28_austen_64kb.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A05906C1DDADCD3004508A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0590C31DDAE876004508A4 /* prideandprejudice_01_austen_64kb.xml in Resources */,
+				7A0590B81DDAE40F004508A4 /* Info.plist in Resources */,
+				7A0590C21DDAE876004508A4 /* prideandprejudice_01_austen_64kb.mp3 in Resources */,
+				7A0590B71DDAE40F004508A4 /* Main.storyboard in Resources */,
+				7A0590B61DDAE40F004508A4 /* Assets.xcassets in Resources */,
+				7A0590A71DDAE3DC004508A4 /* Jekyll.png in Resources */,
+				7A0590BB1DDAE40F004508A4 /* My.plist in Resources */,
+				7A0590B91DDAE40F004508A4 /* iPhoneBack.png in Resources */,
+				7A0590C11DDAE876004508A4 /* list.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,7 +1393,6 @@
 				7A1D56CD1DD5A31800A6C332 /* 8.xml in Resources */,
 				7A1D56C81DD5A31800A6C332 /* 6.mp3 in Resources */,
 				7A1D56C11DD5A31800A6C332 /* 2.xml in Resources */,
-				7A1D566A1DD59F1100A6C332 /* LaunchScreen.storyboard in Resources */,
 				7A1D56D01DD5A31800A6C332 /* 10.mp3 in Resources */,
 				7A1D56CB1DD5A31800A6C332 /* 7.xml in Resources */,
 				7A1D56CE1DD5A31800A6C332 /* 9.mp3 in Resources */,
@@ -576,6 +1404,7 @@
 				7A1D56CA1DD5A31800A6C332 /* 7.mp3 in Resources */,
 				7A1D56651DD59F1100A6C332 /* Main.storyboard in Resources */,
 				7A1D56CF1DD5A31800A6C332 /* 9.xml in Resources */,
+				316258B31DD89E7D00A9911A /* My.plist in Resources */,
 				7A1D56C31DD5A31800A6C332 /* 3.xml in Resources */,
 				7A1D56C21DD5A31800A6C332 /* 3.mp3 in Resources */,
 				7A1D56CC1DD5A31800A6C332 /* 8.mp3 in Resources */,
@@ -587,31 +1416,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31629C381DD45A000026B25E /* Sources */ = {
+		7A058ECC1DDAAB33004508A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31629D071DD545760026B25E /* AppDelegate.m in Sources */,
-				31629CAD1DD4A6D50026B25E /* ContentsViewController.m in Sources */,
-				31629CAC1DD4A6D50026B25E /* BookCoverViewController.m in Sources */,
-				31629CA71DD4A43E0026B25E /* Utils.m in Sources */,
-				31629C8E1DD466DE0026B25E /* TBXML+Compression.m in Sources */,
-				31629CB51DD4AC790026B25E /* BookViewController.m in Sources */,
-				31629C901DD466DE0026B25E /* TBXML.m in Sources */,
-				31629C8F1DD466DE0026B25E /* TBXML+HTTP.m in Sources */,
-				31629CB41DD4AC790026B25E /* BookTableViewCell.m in Sources */,
-				31629CB81DD4AD330026B25E /* Script.m in Sources */,
-				7A1D56371DD5962F00A6C332 /* main.m in Sources */,
+				7A058EF11DDAAC2C004508A4 /* AppDelegate.m in Sources */,
+				7A058F181DDAAD1E004508A4 /* Utils.m in Sources */,
+				7A058F151DDAAD1E004508A4 /* BookViewController.m in Sources */,
+				7A058EFC1DDAACCA004508A4 /* TBXML+HTTP.m in Sources */,
+				7A058EFB1DDAACCA004508A4 /* TBXML+Compression.m in Sources */,
+				7A058F131DDAAD1E004508A4 /* BookCoverViewController.m in Sources */,
+				7A058EFD1DDAACCA004508A4 /* TBXML.m in Sources */,
+				7A058F171DDAAD1E004508A4 /* Script.m in Sources */,
+				7A058F161DDAAD1E004508A4 /* ContentsViewController.m in Sources */,
+				7A058F141DDAAD1E004508A4 /* BookTableViewCell.m in Sources */,
+				7A058ED41DDAAB33004508A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1D56381DD5973000A6C332 /* Sources */ = {
+		7A058F221DDAC1ED004508A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1D56461DD5973100A6C332 /* ViewController.m in Sources */,
-				7A1D56431DD5973100A6C332 /* AppDelegate.m in Sources */,
-				7A1D56401DD5973100A6C332 /* main.m in Sources */,
+				7A0590691DDAC671004508A4 /* AppDelegate.m in Sources */,
+				7A058F2A1DDAC1ED004508A4 /* main.m in Sources */,
+				7A058F581DDAC24D004508A4 /* BookViewController.m in Sources */,
+				7A058F5E1DDAC24D004508A4 /* TBXML+HTTP.m in Sources */,
+				7A058F5F1DDAC24D004508A4 /* TBXML.m in Sources */,
+				7A058F5D1DDAC24D004508A4 /* TBXML+Compression.m in Sources */,
+				7A058F591DDAC24D004508A4 /* ContentsViewController.m in Sources */,
+				7A058F571DDAC24D004508A4 /* BookTableViewCell.m in Sources */,
+				7A058F5A1DDAC24D004508A4 /* Script.m in Sources */,
+				7A058F5B1DDAC24D004508A4 /* Utils.m in Sources */,
+				7A058F561DDAC24D004508A4 /* BookCoverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A05906A1DDADCD3004508A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0590A01DDAE3DC004508A4 /* AppDelegate.m in Sources */,
+				7A0590A31DDAE3DC004508A4 /* BookViewController.m in Sources */,
+				7A0590A91DDAE3DC004508A4 /* TBXML+HTTP.m in Sources */,
+				7A0590AA1DDAE3DC004508A4 /* TBXML.m in Sources */,
+				7A0590A81DDAE3DC004508A4 /* TBXML+Compression.m in Sources */,
+				7A0590A41DDAE3DC004508A4 /* ContentsViewController.m in Sources */,
+				7A0590A21DDAE3DC004508A4 /* BookTableViewCell.m in Sources */,
+				7A0590A51DDAE3DC004508A4 /* Script.m in Sources */,
+				7A0590A61DDAE3DC004508A4 /* Utils.m in Sources */,
+				7A0590BA1DDAE40F004508A4 /* main.m in Sources */,
+				7A0590A11DDAE3DC004508A4 /* BookCoverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,20 +1491,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7A1D56471DD5973100A6C332 /* Main.storyboard */ = {
+		7A058EEB1DDAAC2C004508A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A1D56481DD5973100A6C332 /* Base */,
+				7A058EEC1DDAAC2C004508A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7A058EED1DDAAC2C004508A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A058EEE1DDAAC2C004508A4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7A1D564C1DD5973100A6C332 /* LaunchScreen.storyboard */ = {
+		7A058F641DDAC2D3004508A4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A1D564D1DD5973100A6C332 /* Base */,
+				7A058F651DDAC2D3004508A4 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A0590AF1DDAE40F004508A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0590B01DDAE40F004508A4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		7A1D56631DD59F1100A6C332 /* Main.storyboard */ = {
@@ -658,14 +1529,6 @@
 				7A1D56641DD59F1100A6C332 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7A1D56681DD59F1100A6C332 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A1D56691DD59F1100A6C332 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -711,7 +1574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -752,69 +1615,117 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		31629C511DD45A010026B25E /* Debug */ = {
+		7A058EE41DDAAB33004508A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = JN4U23SWSX;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
-				INFOPLIST_FILE = J/Info.plist;
+				INFOPLIST_FILE = j/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.J;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		31629C521DD45A010026B25E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = JN4U23SWSX;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
-				INFOPLIST_FILE = J/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.J;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		7A1D56511DD5973100A6C332 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JN4U23SWSX;
-				INFOPLIST_FILE = test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5df5136-696b-443c-abd0-60c3066c5cd5";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.J";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7A1D56521DD5973100A6C332 /* Release */ = {
+		7A058EE51DDAAB33004508A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = JN4U23SWSX;
-				INFOPLIST_FILE = test/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
+				INFOPLIST_FILE = j/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.test;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.J;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a5df5136-696b-443c-abd0-60c3066c5cd5";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.J";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A058F3A1DDAC1ED004508A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = JN4U23SWSX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
+				INFOPLIST_FILE = Pride/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.Pride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b6a8f3b-e49b-4914-baec-c8e810999af2";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A058F3B1DDAC1ED004508A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = JN4U23SWSX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
+				INFOPLIST_FILE = Pride/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.Pride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b6a8f3b-e49b-4914-baec-c8e810999af2";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A0590831DDADCD4004508A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = JN4U23SWSX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
+				INFOPLIST_FILE = PrideLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.PrideLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b6a8f3b-e49b-4914-baec-c8e810999af2";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A0590841DDADCD4004508A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = JN4U23SWSX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
+				INFOPLIST_FILE = PrideLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.PrideLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b6a8f3b-e49b-4914-baec-c8e810999af2";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.*";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -823,6 +1734,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = JN4U23SWSX;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
 				INFOPLIST_FILE = Jekyll/Info.plist;
@@ -830,6 +1742,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.Jekyll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "25967f35-7eda-421b-8aa6-36a1d165f8e3";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.Jekyll";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -838,6 +1752,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = JN4U23SWSX;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
 				INFOPLIST_FILE = Jekyll/Info.plist;
@@ -845,6 +1760,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.Jekyll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "25967f35-7eda-421b-8aa6-36a1d165f8e3";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.Jekyll";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -861,23 +1778,30 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31629C501DD45A010026B25E /* Build configuration list for PBXNativeTarget "J" */ = {
+		7A058EE61DDAAB33004508A4 /* Build configuration list for PBXNativeTarget "j" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31629C511DD45A010026B25E /* Debug */,
-				31629C521DD45A010026B25E /* Release */,
+				7A058EE41DDAAB33004508A4 /* Debug */,
+				7A058EE51DDAAB33004508A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A1D56501DD5973100A6C332 /* Build configuration list for PBXNativeTarget "test" */ = {
+		7A058F3C1DDAC1ED004508A4 /* Build configuration list for PBXNativeTarget "Pride" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A1D56511DD5973100A6C332 /* Debug */,
-				7A1D56521DD5973100A6C332 /* Release */,
+				7A058F3A1DDAC1ED004508A4 /* Debug */,
+				7A058F3B1DDAC1ED004508A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		7A0590821DDADCD4004508A4 /* Build configuration list for PBXNativeTarget "PrideLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0590831DDADCD4004508A4 /* Debug */,
+				7A0590841DDADCD4004508A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		7A1D566C1DD59F1100A6C332 /* Build configuration list for PBXNativeTarget "Jekyll" */ = {
 			isa = XCConfigurationList;

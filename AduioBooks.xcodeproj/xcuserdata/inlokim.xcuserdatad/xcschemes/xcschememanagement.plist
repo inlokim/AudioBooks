@@ -4,12 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AduioBooks.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>J.xcscheme</key>
+		<key>Jekyll copy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -17,11 +12,26 @@
 		<key>Jekyll.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Pride.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>PrideLite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>316258B41DD9F6DD00A9911A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>31629C1D1DD459E40026B25E</key>
 		<dict>
 			<key>primary</key>
@@ -33,6 +43,31 @@
 			<true/>
 		</dict>
 		<key>31629C561DD45BCA0026B25E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A058ECF1DDAAB33004508A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A058F251DDAC1ED004508A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A05906D1DDADCD3004508A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A1D563B1DD5973000A6C332</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A1D56571DD59F1100A6C332</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -13,9 +13,12 @@
 {
     IBOutlet UIImageView *imageView;
     IBOutlet UIButton *contentsButton;
-    IBOutlet UIButton *fullVersionButton;
+    IBOutlet UIButton *iTunesLinkButton;
     
     IBOutlet UIActivityIndicatorView *activityIndicator;
+    
+    
+    NSString *iTunesLink;
 }
 @property (strong, nonatomic) UIView *overlayView;
 
@@ -42,27 +45,32 @@
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:239.0/255.0 green:238.0/255.0 blue:244.0/255.0 alpha:1.0];
     
     self.navigationController.navigationBar.translucent = NO;
+    
+    //Link Button
+    
+    
+    NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"My" ofType:@"plist"]];
+    NSLog(@"dictionary = %@", dictionary);
+    
+    NSArray *array = [dictionary objectForKey:@"Values"];
+    NSLog(@"array = %@", array);
+    
+    [iTunesLinkButton setTitle:[array objectAtIndex:0] forState:UIControlStateNormal];
+    
+    NSLog(@"[array objectAtIndex:0] : %@", [array objectAtIndex:0]);
+    
+    NSString *url = [array objectAtIndex:1];
+    
+    iTunesLink = [@"itms://" stringByAppendingString:url];
+    
+    NSLog(@"iTunesLink : %@", iTunesLink);
 }
 
 
-- (IBAction)fullVersion:(id)sender
+- (IBAction)itunesLinkAction:(id)sender
 {
-    NSString * urlString = @"https://itunes.apple.com/kr/app/strange-case-dr.-jekyll-mr./id404151440?mt=8";
-    
-    NSURL *url = [NSURL URLWithString:urlString];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    
-    NSURLResponse *response;
-    NSError *error;
-    //send it synchronous
-    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
-    NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-    // check for an error. If there is a network error, you should handle it here.
-    if(!error)
-    {
-        //log response
-        NSLog(@"Response from server = %@", responseString);
-    }
+
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:iTunesLink]];
 }
 
 #pragma mark - Segues
@@ -90,15 +98,14 @@
 {
     [super viewWillAppear:animated];
     
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     [self.navigationController setNavigationBarHidden:YES animated:NO];
-    [self.navigationController setToolbarHidden:YES animated:NO];
+   // [self.navigationController setToolbarHidden:YES animated:NO];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+   // [[UIApplication sharedApplication] setStatusBarHidden:NO];
 }
 
 

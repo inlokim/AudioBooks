@@ -189,25 +189,13 @@ static NSString *cellIdentifier = @"MyCell";
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        
- //       NSString *fileId =
- //       [[arrayData objectAtIndex:indexPath.row] objectForKey:@"key"];
-        
-        //NSString *title =
-        //[[arrayData objectAtIndex:indexPath.row] objectForKey:@"title"];
-        
-        //NSLog(@"##title : %@, ##fileID : %@", title, fileId);
-       
-        //NSDate *object = self.objects[indexPath.row];
+
         BookViewController *controller =
         (BookViewController *)[segue destinationViewController];
         
       //  [controller setAppRecord:appRecord];
         [controller setContentsIndex:indexPath];
         [controller setContentsArray:arrayData];
-        
-        /*controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
-         controller.navigationItem.leftItemsSupplementBackButton = YES;*/
         
         controller.navigationItem.leftItemsSupplementBackButton = YES;
     }
@@ -217,7 +205,7 @@ static NSString *cellIdentifier = @"MyCell";
 {
     [super viewWillAppear:animated];
     
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    //[[UIApplication sharedApplication] setStatusBarHidden:YES];
     [self.navigationController setToolbarHidden:YES animated:NO];
     
     currentRow = 0;
@@ -252,7 +240,7 @@ static NSString *cellIdentifier = @"MyCell";
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+    //[[UIApplication sharedApplication] setStatusBarHidden:NO];
     
     
     [self.tableView reloadData];

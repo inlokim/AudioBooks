@@ -613,7 +613,7 @@ static NSString *cellIdentifier = @"MyCell";
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+   // [[UIApplication sharedApplication] setStatusBarHidden:NO];
     
     
     NSLog(@"viewWillDisappear");
