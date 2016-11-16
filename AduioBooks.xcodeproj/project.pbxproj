@@ -191,6 +191,66 @@
 		7A0590C11DDAE876004508A4 /* list.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590BE1DDAE876004508A4 /* list.xml */; };
 		7A0590C21DDAE876004508A4 /* prideandprejudice_01_austen_64kb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590BF1DDAE876004508A4 /* prideandprejudice_01_austen_64kb.mp3 */; };
 		7A0590C31DDAE876004508A4 /* prideandprejudice_01_austen_64kb.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590C01DDAE876004508A4 /* prideandprejudice_01_austen_64kb.xml */; };
+		7A0590CC1DDC122A004508A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0590CB1DDC122A004508A4 /* main.m */; };
+		7A0590D51DDC122A004508A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590D31DDC122A004508A4 /* Main.storyboard */; };
+		7A0590D71DDC122A004508A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590D61DDC122A004508A4 /* Assets.xcassets */; };
+		7A0590F91DDC13EF004508A4 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E01DDC13EF004508A4 /* 1.mp3 */; };
+		7A0590FA1DDC13EF004508A4 /* 1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E11DDC13EF004508A4 /* 1.xml */; };
+		7A0590FB1DDC13EF004508A4 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E21DDC13EF004508A4 /* 2.mp3 */; };
+		7A0590FC1DDC13EF004508A4 /* 2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E31DDC13EF004508A4 /* 2.xml */; };
+		7A0590FD1DDC13EF004508A4 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E41DDC13EF004508A4 /* 3.mp3 */; };
+		7A0590FE1DDC13EF004508A4 /* 3.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E51DDC13EF004508A4 /* 3.xml */; };
+		7A0590FF1DDC13EF004508A4 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E61DDC13EF004508A4 /* 4.mp3 */; };
+		7A0591001DDC13EF004508A4 /* 4.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E71DDC13EF004508A4 /* 4.xml */; };
+		7A0591011DDC13EF004508A4 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E81DDC13EF004508A4 /* 5.mp3 */; };
+		7A0591021DDC13EF004508A4 /* 5.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590E91DDC13EF004508A4 /* 5.xml */; };
+		7A0591031DDC13EF004508A4 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590EA1DDC13EF004508A4 /* 6.mp3 */; };
+		7A0591041DDC13EF004508A4 /* 6.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590EB1DDC13EF004508A4 /* 6.xml */; };
+		7A0591051DDC13EF004508A4 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590EC1DDC13EF004508A4 /* 7.mp3 */; };
+		7A0591061DDC13EF004508A4 /* 7.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590ED1DDC13EF004508A4 /* 7.xml */; };
+		7A0591071DDC13EF004508A4 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590EE1DDC13EF004508A4 /* 8.mp3 */; };
+		7A0591081DDC13EF004508A4 /* 8.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590EF1DDC13EF004508A4 /* 8.xml */; };
+		7A0591091DDC13EF004508A4 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590F01DDC13EF004508A4 /* 9.mp3 */; };
+		7A05910A1DDC13EF004508A4 /* 9.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590F11DDC13EF004508A4 /* 9.xml */; };
+		7A05910B1DDC13EF004508A4 /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590F21DDC13EF004508A4 /* 10.mp3 */; };
+		7A05910C1DDC13EF004508A4 /* 10.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590F31DDC13EF004508A4 /* 10.xml */; };
+		7A05910D1DDC13EF004508A4 /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590F41DDC13EF004508A4 /* 11.mp3 */; };
+		7A05910E1DDC13EF004508A4 /* 11.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590F51DDC13EF004508A4 /* 11.xml */; };
+		7A05910F1DDC13EF004508A4 /* 12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590F61DDC13EF004508A4 /* 12.mp3 */; };
+		7A0591101DDC13EF004508A4 /* 12.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590F71DDC13EF004508A4 /* 12.xml */; };
+		7A0591111DDC13EF004508A4 /* list.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A0590F81DDC13EF004508A4 /* list.xml */; };
+		7A0591291DDC140B004508A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591141DDC140B004508A4 /* AppDelegate.m */; };
+		7A05912A1DDC140B004508A4 /* BookCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591161DDC140B004508A4 /* BookCoverViewController.m */; };
+		7A05912B1DDC140B004508A4 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591181DDC140B004508A4 /* BookTableViewCell.m */; };
+		7A05912C1DDC140B004508A4 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05911A1DDC140B004508A4 /* BookViewController.m */; };
+		7A05912D1DDC140B004508A4 /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05911C1DDC140B004508A4 /* ContentsViewController.m */; };
+		7A05912E1DDC140B004508A4 /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05911E1DDC140B004508A4 /* Script.m */; };
+		7A05912F1DDC140B004508A4 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591201DDC140B004508A4 /* Utils.m */; };
+		7A0591301DDC140B004508A4 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591221DDC140B004508A4 /* TBXML+Compression.m */; };
+		7A0591311DDC140B004508A4 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591231DDC140B004508A4 /* TBXML+HTTP.m */; };
+		7A0591321DDC140B004508A4 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591241DDC140B004508A4 /* TBXML.m */; };
+		7A0591341DDC15E7004508A4 /* iPhoneBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0591331DDC15E7004508A4 /* iPhoneBack.png */; };
+		7A0591351DDC162D004508A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 31629CA01DD46DF20026B25E /* libz.tbd */; };
+		7A0591371DDC166C004508A4 /* My.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A0591361DDC166C004508A4 /* My.plist */; };
+		7A0591401DDC2EE8004508A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05913F1DDC2EE8004508A4 /* main.m */; };
+		7A0591491DDC2EE8004508A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0591471DDC2EE8004508A4 /* Main.storyboard */; };
+		7A05914B1DDC2EE8004508A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A05914A1DDC2EE8004508A4 /* Assets.xcassets */; };
+		7A05916C1DDC2F0D004508A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591551DDC2F0D004508A4 /* AppDelegate.m */; };
+		7A05916D1DDC2F0D004508A4 /* BookCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591571DDC2F0D004508A4 /* BookCoverViewController.m */; };
+		7A05916E1DDC2F0D004508A4 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591591DDC2F0D004508A4 /* BookTableViewCell.m */; };
+		7A05916F1DDC2F0D004508A4 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05915B1DDC2F0D004508A4 /* BookViewController.m */; };
+		7A0591701DDC2F0D004508A4 /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05915D1DDC2F0D004508A4 /* ContentsViewController.m */; };
+		7A0591711DDC2F0D004508A4 /* Script.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05915F1DDC2F0D004508A4 /* Script.m */; };
+		7A0591721DDC2F0D004508A4 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591611DDC2F0D004508A4 /* Utils.m */; };
+		7A0591731DDC2F0D004508A4 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591631DDC2F0D004508A4 /* TBXML+Compression.m */; };
+		7A0591741DDC2F0D004508A4 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591641DDC2F0D004508A4 /* TBXML+HTTP.m */; };
+		7A0591751DDC2F0D004508A4 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0591651DDC2F0D004508A4 /* TBXML.m */; };
+		7A0591781DDC2F5C004508A4 /* iPhoneBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0591761DDC2F5C004508A4 /* iPhoneBack.png */; };
+		7A0591791DDC2F5C004508A4 /* My.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A0591771DDC2F5C004508A4 /* My.plist */; };
+		7A05917E1DDC3A1A004508A4 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A05917B1DDC3A1A004508A4 /* 1.mp3 */; };
+		7A05917F1DDC3A1A004508A4 /* 1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A05917C1DDC3A1A004508A4 /* 1.xml */; };
+		7A0591801DDC3A1A004508A4 /* list.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A05917D1DDC3A1A004508A4 /* list.xml */; };
+		7A0591811DDC3A4C004508A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 31629CA01DD46DF20026B25E /* libz.tbd */; };
 		7A1D565C1DD59F1100A6C332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D565B1DD59F1100A6C332 /* main.m */; };
 		7A1D56651DD59F1100A6C332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D56631DD59F1100A6C332 /* Main.storyboard */; };
 		7A1D56671DD59F1100A6C332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D56661DD59F1100A6C332 /* Assets.xcassets */; };
@@ -449,6 +509,89 @@
 		7A0590BE1DDAE876004508A4 /* list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = list.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_preview/audios/list.xml; sourceTree = "<group>"; };
 		7A0590BF1DDAE876004508A4 /* prideandprejudice_01_austen_64kb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = prideandprejudice_01_austen_64kb.mp3; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_preview/audios/prideandprejudice_01_austen_64kb.mp3; sourceTree = "<group>"; };
 		7A0590C01DDAE876004508A4 /* prideandprejudice_01_austen_64kb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = prideandprejudice_01_austen_64kb.xml; path = ../../../../../Documents/Tab_Audios/pride_and_prejudice_preview/audios/prideandprejudice_01_austen_64kb.xml; sourceTree = "<group>"; };
+		7A0590C81DDC122A004508A4 /* Alice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0590CB1DDC122A004508A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A0590D41DDC122A004508A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A0590D61DDC122A004508A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A0590DB1DDC122A004508A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0590E01DDC13EF004508A4 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/1.mp3; sourceTree = "<group>"; };
+		7A0590E11DDC13EF004508A4 /* 1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 1.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/1.xml; sourceTree = "<group>"; };
+		7A0590E21DDC13EF004508A4 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 2.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/2.mp3; sourceTree = "<group>"; };
+		7A0590E31DDC13EF004508A4 /* 2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 2.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/2.xml; sourceTree = "<group>"; };
+		7A0590E41DDC13EF004508A4 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 3.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/3.mp3; sourceTree = "<group>"; };
+		7A0590E51DDC13EF004508A4 /* 3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 3.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/3.xml; sourceTree = "<group>"; };
+		7A0590E61DDC13EF004508A4 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 4.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/4.mp3; sourceTree = "<group>"; };
+		7A0590E71DDC13EF004508A4 /* 4.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 4.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/4.xml; sourceTree = "<group>"; };
+		7A0590E81DDC13EF004508A4 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 5.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/5.mp3; sourceTree = "<group>"; };
+		7A0590E91DDC13EF004508A4 /* 5.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 5.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/5.xml; sourceTree = "<group>"; };
+		7A0590EA1DDC13EF004508A4 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 6.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/6.mp3; sourceTree = "<group>"; };
+		7A0590EB1DDC13EF004508A4 /* 6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 6.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/6.xml; sourceTree = "<group>"; };
+		7A0590EC1DDC13EF004508A4 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 7.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/7.mp3; sourceTree = "<group>"; };
+		7A0590ED1DDC13EF004508A4 /* 7.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 7.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/7.xml; sourceTree = "<group>"; };
+		7A0590EE1DDC13EF004508A4 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 8.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/8.mp3; sourceTree = "<group>"; };
+		7A0590EF1DDC13EF004508A4 /* 8.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 8.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/8.xml; sourceTree = "<group>"; };
+		7A0590F01DDC13EF004508A4 /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 9.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/9.mp3; sourceTree = "<group>"; };
+		7A0590F11DDC13EF004508A4 /* 9.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 9.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/9.xml; sourceTree = "<group>"; };
+		7A0590F21DDC13EF004508A4 /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 10.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/10.mp3; sourceTree = "<group>"; };
+		7A0590F31DDC13EF004508A4 /* 10.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 10.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/10.xml; sourceTree = "<group>"; };
+		7A0590F41DDC13EF004508A4 /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 11.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/11.mp3; sourceTree = "<group>"; };
+		7A0590F51DDC13EF004508A4 /* 11.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 11.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/11.xml; sourceTree = "<group>"; };
+		7A0590F61DDC13EF004508A4 /* 12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 12.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/12.mp3; sourceTree = "<group>"; };
+		7A0590F71DDC13EF004508A4 /* 12.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 12.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/12.xml; sourceTree = "<group>"; };
+		7A0590F81DDC13EF004508A4 /* list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = list.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_full/audios/list.xml; sourceTree = "<group>"; };
+		7A0591131DDC140B004508A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A0591141DDC140B004508A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A0591151DDC140B004508A4 /* BookCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCoverViewController.h; sourceTree = "<group>"; };
+		7A0591161DDC140B004508A4 /* BookCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCoverViewController.m; sourceTree = "<group>"; };
+		7A0591171DDC140B004508A4 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		7A0591181DDC140B004508A4 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		7A0591191DDC140B004508A4 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		7A05911A1DDC140B004508A4 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		7A05911B1DDC140B004508A4 /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		7A05911C1DDC140B004508A4 /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		7A05911D1DDC140B004508A4 /* Script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Script.h; sourceTree = "<group>"; };
+		7A05911E1DDC140B004508A4 /* Script.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Script.m; sourceTree = "<group>"; };
+		7A05911F1DDC140B004508A4 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		7A0591201DDC140B004508A4 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		7A0591221DDC140B004508A4 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		7A0591231DDC140B004508A4 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		7A0591241DDC140B004508A4 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		7A0591261DDC140B004508A4 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		7A0591271DDC140B004508A4 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		7A0591281DDC140B004508A4 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		7A0591331DDC15E7004508A4 /* iPhoneBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneBack.png; sourceTree = "<group>"; };
+		7A0591361DDC166C004508A4 /* My.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = My.plist; sourceTree = "<group>"; };
+		7A05913C1DDC2EE8004508A4 /* AliceLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliceLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A05913F1DDC2EE8004508A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A0591481DDC2EE8004508A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A05914A1DDC2EE8004508A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A05914F1DDC2EE8004508A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0591541DDC2F0D004508A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A0591551DDC2F0D004508A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A0591561DDC2F0D004508A4 /* BookCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCoverViewController.h; sourceTree = "<group>"; };
+		7A0591571DDC2F0D004508A4 /* BookCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCoverViewController.m; sourceTree = "<group>"; };
+		7A0591581DDC2F0D004508A4 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		7A0591591DDC2F0D004508A4 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		7A05915A1DDC2F0D004508A4 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		7A05915B1DDC2F0D004508A4 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		7A05915C1DDC2F0D004508A4 /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		7A05915D1DDC2F0D004508A4 /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
+		7A05915E1DDC2F0D004508A4 /* Script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Script.h; sourceTree = "<group>"; };
+		7A05915F1DDC2F0D004508A4 /* Script.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Script.m; sourceTree = "<group>"; };
+		7A0591601DDC2F0D004508A4 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		7A0591611DDC2F0D004508A4 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		7A0591631DDC2F0D004508A4 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		7A0591641DDC2F0D004508A4 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		7A0591651DDC2F0D004508A4 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		7A0591671DDC2F0D004508A4 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		7A0591681DDC2F0D004508A4 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		7A0591691DDC2F0D004508A4 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		7A05916B1DDC2F0D004508A4 /* TBXML-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		7A0591761DDC2F5C004508A4 /* iPhoneBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneBack.png; sourceTree = "<group>"; };
+		7A0591771DDC2F5C004508A4 /* My.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = My.plist; sourceTree = "<group>"; };
+		7A05917B1DDC3A1A004508A4 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = ../../../../../Documents/Tab_Audios/alice_adventure_preview/audios/1.mp3; sourceTree = "<group>"; };
+		7A05917C1DDC3A1A004508A4 /* 1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 1.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_preview/audios/1.xml; sourceTree = "<group>"; };
+		7A05917D1DDC3A1A004508A4 /* list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = list.xml; path = ../../../../../Documents/Tab_Audios/alice_adventure_preview/audios/list.xml; sourceTree = "<group>"; };
 		7A1D56581DD59F1100A6C332 /* Jekyll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jekyll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1D565B1DD59F1100A6C332 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A1D56641DD59F1100A6C332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -524,6 +667,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A0590C51DDC122A004508A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0591351DDC162D004508A4 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0591391DDC2EE7004508A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0591811DDC3A4C004508A4 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7A1D56551DD59F1100A6C332 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -542,6 +701,8 @@
 				7A058ED11DDAAB33004508A4 /* j */,
 				7A058F271DDAC1ED004508A4 /* Pride */,
 				7A05906F1DDADCD3004508A4 /* PrideLite */,
+				7A0590C91DDC122A004508A4 /* Alice */,
+				7A05913D1DDC2EE8004508A4 /* AliceLite */,
 				31629C1F1DD459E40026B25E /* Products */,
 				31629C9F1DD46DF10026B25E /* Frameworks */,
 			);
@@ -554,6 +715,8 @@
 				7A058ED01DDAAB33004508A4 /* j.app */,
 				7A058F261DDAC1ED004508A4 /* Pride.app */,
 				7A05906E1DDADCD3004508A4 /* PrideLite.app */,
+				7A0590C81DDC122A004508A4 /* Alice.app */,
+				7A05913C1DDC2EE8004508A4 /* AliceLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -986,6 +1149,189 @@
 			name = audios;
 			sourceTree = "<group>";
 		};
+		7A0590C91DDC122A004508A4 /* Alice */ = {
+			isa = PBXGroup;
+			children = (
+				7A0591361DDC166C004508A4 /* My.plist */,
+				7A0591331DDC15E7004508A4 /* iPhoneBack.png */,
+				7A0591121DDC140B004508A4 /* Classes */,
+				7A0591211DDC140B004508A4 /* TBXML-Code */,
+				7A0591251DDC140B004508A4 /* TBXML-Headers */,
+				7A0590DF1DDC1398004508A4 /* audios */,
+				7A0590D31DDC122A004508A4 /* Main.storyboard */,
+				7A0590D61DDC122A004508A4 /* Assets.xcassets */,
+				7A0590DB1DDC122A004508A4 /* Info.plist */,
+				7A0590CA1DDC122A004508A4 /* Supporting Files */,
+			);
+			path = Alice;
+			sourceTree = "<group>";
+		};
+		7A0590CA1DDC122A004508A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A0590CB1DDC122A004508A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A0590DF1DDC1398004508A4 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				7A0590E01DDC13EF004508A4 /* 1.mp3 */,
+				7A0590E11DDC13EF004508A4 /* 1.xml */,
+				7A0590E21DDC13EF004508A4 /* 2.mp3 */,
+				7A0590E31DDC13EF004508A4 /* 2.xml */,
+				7A0590E41DDC13EF004508A4 /* 3.mp3 */,
+				7A0590E51DDC13EF004508A4 /* 3.xml */,
+				7A0590E61DDC13EF004508A4 /* 4.mp3 */,
+				7A0590E71DDC13EF004508A4 /* 4.xml */,
+				7A0590E81DDC13EF004508A4 /* 5.mp3 */,
+				7A0590E91DDC13EF004508A4 /* 5.xml */,
+				7A0590EA1DDC13EF004508A4 /* 6.mp3 */,
+				7A0590EB1DDC13EF004508A4 /* 6.xml */,
+				7A0590EC1DDC13EF004508A4 /* 7.mp3 */,
+				7A0590ED1DDC13EF004508A4 /* 7.xml */,
+				7A0590EE1DDC13EF004508A4 /* 8.mp3 */,
+				7A0590EF1DDC13EF004508A4 /* 8.xml */,
+				7A0590F01DDC13EF004508A4 /* 9.mp3 */,
+				7A0590F11DDC13EF004508A4 /* 9.xml */,
+				7A0590F21DDC13EF004508A4 /* 10.mp3 */,
+				7A0590F31DDC13EF004508A4 /* 10.xml */,
+				7A0590F41DDC13EF004508A4 /* 11.mp3 */,
+				7A0590F51DDC13EF004508A4 /* 11.xml */,
+				7A0590F61DDC13EF004508A4 /* 12.mp3 */,
+				7A0590F71DDC13EF004508A4 /* 12.xml */,
+				7A0590F81DDC13EF004508A4 /* list.xml */,
+			);
+			name = audios;
+			sourceTree = "<group>";
+		};
+		7A0591121DDC140B004508A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A0591131DDC140B004508A4 /* AppDelegate.h */,
+				7A0591141DDC140B004508A4 /* AppDelegate.m */,
+				7A0591151DDC140B004508A4 /* BookCoverViewController.h */,
+				7A0591161DDC140B004508A4 /* BookCoverViewController.m */,
+				7A0591171DDC140B004508A4 /* BookTableViewCell.h */,
+				7A0591181DDC140B004508A4 /* BookTableViewCell.m */,
+				7A0591191DDC140B004508A4 /* BookViewController.h */,
+				7A05911A1DDC140B004508A4 /* BookViewController.m */,
+				7A05911B1DDC140B004508A4 /* ContentsViewController.h */,
+				7A05911C1DDC140B004508A4 /* ContentsViewController.m */,
+				7A05911D1DDC140B004508A4 /* Script.h */,
+				7A05911E1DDC140B004508A4 /* Script.m */,
+				7A05911F1DDC140B004508A4 /* Utils.h */,
+				7A0591201DDC140B004508A4 /* Utils.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A0591211DDC140B004508A4 /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				7A0591221DDC140B004508A4 /* TBXML+Compression.m */,
+				7A0591231DDC140B004508A4 /* TBXML+HTTP.m */,
+				7A0591241DDC140B004508A4 /* TBXML.m */,
+			);
+			path = "TBXML-Code";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A0591251DDC140B004508A4 /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7A0591261DDC140B004508A4 /* TBXML+Compression.h */,
+				7A0591271DDC140B004508A4 /* TBXML+HTTP.h */,
+				7A0591281DDC140B004508A4 /* TBXML.h */,
+			);
+			path = "TBXML-Headers";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A05913D1DDC2EE8004508A4 /* AliceLite */ = {
+			isa = PBXGroup;
+			children = (
+				7A05917A1DDC39EA004508A4 /* audios */,
+				7A0591761DDC2F5C004508A4 /* iPhoneBack.png */,
+				7A0591771DDC2F5C004508A4 /* My.plist */,
+				7A0591531DDC2F0D004508A4 /* Classes */,
+				7A0591621DDC2F0D004508A4 /* TBXML-Code */,
+				7A0591661DDC2F0D004508A4 /* TBXML-Headers */,
+				7A05916A1DDC2F0D004508A4 /* TBXML-Support */,
+				7A0591471DDC2EE8004508A4 /* Main.storyboard */,
+				7A05914A1DDC2EE8004508A4 /* Assets.xcassets */,
+				7A05914F1DDC2EE8004508A4 /* Info.plist */,
+				7A05913E1DDC2EE8004508A4 /* Supporting Files */,
+			);
+			path = AliceLite;
+			sourceTree = "<group>";
+		};
+		7A05913E1DDC2EE8004508A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A05913F1DDC2EE8004508A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A0591531DDC2F0D004508A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A0591541DDC2F0D004508A4 /* AppDelegate.h */,
+				7A0591551DDC2F0D004508A4 /* AppDelegate.m */,
+				7A0591561DDC2F0D004508A4 /* BookCoverViewController.h */,
+				7A0591571DDC2F0D004508A4 /* BookCoverViewController.m */,
+				7A0591581DDC2F0D004508A4 /* BookTableViewCell.h */,
+				7A0591591DDC2F0D004508A4 /* BookTableViewCell.m */,
+				7A05915A1DDC2F0D004508A4 /* BookViewController.h */,
+				7A05915B1DDC2F0D004508A4 /* BookViewController.m */,
+				7A05915C1DDC2F0D004508A4 /* ContentsViewController.h */,
+				7A05915D1DDC2F0D004508A4 /* ContentsViewController.m */,
+				7A05915E1DDC2F0D004508A4 /* Script.h */,
+				7A05915F1DDC2F0D004508A4 /* Script.m */,
+				7A0591601DDC2F0D004508A4 /* Utils.h */,
+				7A0591611DDC2F0D004508A4 /* Utils.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		7A0591621DDC2F0D004508A4 /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				7A0591631DDC2F0D004508A4 /* TBXML+Compression.m */,
+				7A0591641DDC2F0D004508A4 /* TBXML+HTTP.m */,
+				7A0591651DDC2F0D004508A4 /* TBXML.m */,
+			);
+			path = "TBXML-Code";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A0591661DDC2F0D004508A4 /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7A0591671DDC2F0D004508A4 /* TBXML+Compression.h */,
+				7A0591681DDC2F0D004508A4 /* TBXML+HTTP.h */,
+				7A0591691DDC2F0D004508A4 /* TBXML.h */,
+			);
+			path = "TBXML-Headers";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A05916A1DDC2F0D004508A4 /* TBXML-Support */ = {
+			isa = PBXGroup;
+			children = (
+				7A05916B1DDC2F0D004508A4 /* TBXML-iOS-Prefix.pch */,
+			);
+			path = "TBXML-Support";
+			sourceTree = SOURCE_ROOT;
+		};
+		7A05917A1DDC39EA004508A4 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				7A05917B1DDC3A1A004508A4 /* 1.mp3 */,
+				7A05917C1DDC3A1A004508A4 /* 1.xml */,
+				7A05917D1DDC3A1A004508A4 /* list.xml */,
+			);
+			name = audios;
+			sourceTree = "<group>";
+		};
 		7A1D56591DD59F1100A6C332 /* Jekyll */ = {
 			isa = PBXGroup;
 			children = (
@@ -1143,6 +1489,40 @@
 			productReference = 7A05906E1DDADCD3004508A4 /* PrideLite.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7A0590C71DDC122A004508A4 /* Alice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0590DC1DDC122A004508A4 /* Build configuration list for PBXNativeTarget "Alice" */;
+			buildPhases = (
+				7A0590C41DDC122A004508A4 /* Sources */,
+				7A0590C51DDC122A004508A4 /* Frameworks */,
+				7A0590C61DDC122A004508A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alice;
+			productName = Alice;
+			productReference = 7A0590C81DDC122A004508A4 /* Alice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A05913B1DDC2EE7004508A4 /* AliceLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0591501DDC2EE8004508A4 /* Build configuration list for PBXNativeTarget "AliceLite" */;
+			buildPhases = (
+				7A0591381DDC2EE7004508A4 /* Sources */,
+				7A0591391DDC2EE7004508A4 /* Frameworks */,
+				7A05913A1DDC2EE7004508A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliceLite;
+			productName = AliceLite;
+			productReference = 7A05913C1DDC2EE8004508A4 /* AliceLite.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7A1D56571DD59F1100A6C332 /* Jekyll */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A1D566C1DD59F1100A6C332 /* Build configuration list for PBXNativeTarget "Jekyll" */;
@@ -1184,6 +1564,16 @@
 						DevelopmentTeam = JN4U23SWSX;
 						ProvisioningStyle = Manual;
 					};
+					7A0590C71DDC122A004508A4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JN4U23SWSX;
+						ProvisioningStyle = Manual;
+					};
+					7A05913B1DDC2EE7004508A4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JN4U23SWSX;
+						ProvisioningStyle = Automatic;
+					};
 					7A1D56571DD59F1100A6C332 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = JN4U23SWSX;
@@ -1208,6 +1598,8 @@
 				7A058ECF1DDAAB33004508A4 /* j */,
 				7A058F251DDAC1ED004508A4 /* Pride */,
 				7A05906D1DDADCD3004508A4 /* PrideLite */,
+				7A0590C71DDC122A004508A4 /* Alice */,
+				7A05913B1DDC2EE7004508A4 /* AliceLite */,
 			);
 		};
 /* End PBXProject section */
@@ -1381,6 +1773,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A0590C61DDC122A004508A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0591011DDC13EF004508A4 /* 5.mp3 in Resources */,
+				7A0591001DDC13EF004508A4 /* 4.xml in Resources */,
+				7A0590F91DDC13EF004508A4 /* 1.mp3 in Resources */,
+				7A0591081DDC13EF004508A4 /* 8.xml in Resources */,
+				7A0591031DDC13EF004508A4 /* 6.mp3 in Resources */,
+				7A0590FC1DDC13EF004508A4 /* 2.xml in Resources */,
+				7A0591101DDC13EF004508A4 /* 12.xml in Resources */,
+				7A05910B1DDC13EF004508A4 /* 10.mp3 in Resources */,
+				7A0591061DDC13EF004508A4 /* 7.xml in Resources */,
+				7A0591091DDC13EF004508A4 /* 9.mp3 in Resources */,
+				7A05910C1DDC13EF004508A4 /* 10.xml in Resources */,
+				7A0590FF1DDC13EF004508A4 /* 4.mp3 in Resources */,
+				7A0590D71DDC122A004508A4 /* Assets.xcassets in Resources */,
+				7A0591341DDC15E7004508A4 /* iPhoneBack.png in Resources */,
+				7A05910F1DDC13EF004508A4 /* 12.mp3 in Resources */,
+				7A0590FB1DDC13EF004508A4 /* 2.mp3 in Resources */,
+				7A0591041DDC13EF004508A4 /* 6.xml in Resources */,
+				7A05910E1DDC13EF004508A4 /* 11.xml in Resources */,
+				7A0591371DDC166C004508A4 /* My.plist in Resources */,
+				7A0591051DDC13EF004508A4 /* 7.mp3 in Resources */,
+				7A0590D51DDC122A004508A4 /* Main.storyboard in Resources */,
+				7A05910A1DDC13EF004508A4 /* 9.xml in Resources */,
+				7A0590FE1DDC13EF004508A4 /* 3.xml in Resources */,
+				7A0590FD1DDC13EF004508A4 /* 3.mp3 in Resources */,
+				7A0591071DDC13EF004508A4 /* 8.mp3 in Resources */,
+				7A0590FA1DDC13EF004508A4 /* 1.xml in Resources */,
+				7A05910D1DDC13EF004508A4 /* 11.mp3 in Resources */,
+				7A0591021DDC13EF004508A4 /* 5.xml in Resources */,
+				7A0591111DDC13EF004508A4 /* list.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A05913A1DDC2EE7004508A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0591781DDC2F5C004508A4 /* iPhoneBack.png in Resources */,
+				7A05914B1DDC2EE8004508A4 /* Assets.xcassets in Resources */,
+				7A0591491DDC2EE8004508A4 /* Main.storyboard in Resources */,
+				7A05917F1DDC3A1A004508A4 /* 1.xml in Resources */,
+				7A0591791DDC2F5C004508A4 /* My.plist in Resources */,
+				7A05917E1DDC3A1A004508A4 /* 1.mp3 in Resources */,
+				7A0591801DDC3A1A004508A4 /* list.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7A1D56561DD59F1100A6C332 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1470,6 +1912,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A0590C41DDC122A004508A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A05912D1DDC140B004508A4 /* ContentsViewController.m in Sources */,
+				7A0591291DDC140B004508A4 /* AppDelegate.m in Sources */,
+				7A0591321DDC140B004508A4 /* TBXML.m in Sources */,
+				7A05912F1DDC140B004508A4 /* Utils.m in Sources */,
+				7A0591301DDC140B004508A4 /* TBXML+Compression.m in Sources */,
+				7A0591311DDC140B004508A4 /* TBXML+HTTP.m in Sources */,
+				7A05912C1DDC140B004508A4 /* BookViewController.m in Sources */,
+				7A05912E1DDC140B004508A4 /* Script.m in Sources */,
+				7A05912A1DDC140B004508A4 /* BookCoverViewController.m in Sources */,
+				7A05912B1DDC140B004508A4 /* BookTableViewCell.m in Sources */,
+				7A0590CC1DDC122A004508A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0591381DDC2EE7004508A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0591751DDC2F0D004508A4 /* TBXML.m in Sources */,
+				7A0591701DDC2F0D004508A4 /* ContentsViewController.m in Sources */,
+				7A05916F1DDC2F0D004508A4 /* BookViewController.m in Sources */,
+				7A05916E1DDC2F0D004508A4 /* BookTableViewCell.m in Sources */,
+				7A0591741DDC2F0D004508A4 /* TBXML+HTTP.m in Sources */,
+				7A0591721DDC2F0D004508A4 /* Utils.m in Sources */,
+				7A0591731DDC2F0D004508A4 /* TBXML+Compression.m in Sources */,
+				7A05916D1DDC2F0D004508A4 /* BookCoverViewController.m in Sources */,
+				7A05916C1DDC2F0D004508A4 /* AppDelegate.m in Sources */,
+				7A0591711DDC2F0D004508A4 /* Script.m in Sources */,
+				7A0591401DDC2EE8004508A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7A1D56541DD59F1100A6C332 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1519,6 +1997,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7A0590B01DDAE40F004508A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A0590D31DDC122A004508A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0590D41DDC122A004508A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A0591471DDC2EE8004508A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0591481DDC2EE8004508A4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1706,8 +2200,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.PrideLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8b6a8f3b-e49b-4914-baec-c8e810999af2";
-				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.*";
+				PROVISIONING_PROFILE = "b18bbf58-5990-4911-b568-0859a425f439";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.PrideLite";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1724,8 +2218,76 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.PrideLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8b6a8f3b-e49b-4914-baec-c8e810999af2";
-				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.*";
+				PROVISIONING_PROFILE = "b18bbf58-5990-4911-b568-0859a425f439";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.PrideLite";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A0590DD1DDC122A004508A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = JN4U23SWSX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
+				INFOPLIST_FILE = Alice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.Alice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c198a9c2-c11a-4c67-bbb0-689bf09763d8";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.Alice";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A0590DE1DDC122A004508A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = JN4U23SWSX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
+				INFOPLIST_FILE = Alice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.Alice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c198a9c2-c11a-4c67-bbb0-689bf09763d8";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: kr.co.highwill.Alice";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A0591511DDC2EE8004508A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JN4U23SWSX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
+				INFOPLIST_FILE = AliceLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.AliceLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A0591521DDC2EE8004508A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JN4U23SWSX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TBXML-Support/TBXML-iOS-Prefix.pch";
+				INFOPLIST_FILE = AliceLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.highwill.AliceLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1794,6 +2356,7 @@
 				7A058F3B1DDAC1ED004508A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A0590821DDADCD4004508A4 /* Build configuration list for PBXNativeTarget "PrideLite" */ = {
 			isa = XCConfigurationList;
@@ -1802,6 +2365,25 @@
 				7A0590841DDADCD4004508A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0590DC1DDC122A004508A4 /* Build configuration list for PBXNativeTarget "Alice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0590DD1DDC122A004508A4 /* Debug */,
+				7A0590DE1DDC122A004508A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0591501DDC2EE8004508A4 /* Build configuration list for PBXNativeTarget "AliceLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0591511DDC2EE8004508A4 /* Debug */,
+				7A0591521DDC2EE8004508A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A1D566C1DD59F1100A6C332 /* Build configuration list for PBXNativeTarget "Jekyll" */ = {
 			isa = XCConfigurationList;

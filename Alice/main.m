@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Jekyll
+//  Alice
 //
-//  Created by 김인로 on 2016. 11. 11..
+//  Created by 김인로 on 2016. 11. 16..
 //  Copyright © 2016년 highwill. All rights reserved.
 //
 

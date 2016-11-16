@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alice.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Jekyll copy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>316258B41DD9F6DD00A9911A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>316258E51DDBD8C500A9911A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>316259501DDBDD3C00A9911A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
